@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS floral-app;
+CREATE DATABASE floral-app;
