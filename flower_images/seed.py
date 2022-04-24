@@ -25,7 +25,7 @@ flowers = [
     Flower('alstoemeria', 'pink', '', 2),
     Flower('alstoemeria', 'red', '', 2),
 
-    Flower('astrantia', 'red', '', 2.75),
+    Flower('astrantia', 'white', '', 2.75),
 
     Flower('blushing bride', 'white', '', 5),
 
@@ -38,6 +38,44 @@ flowers = [
     Flower('carnation', 'red', '', 1.25),
     Flower('carnation', 'violet', '', 1.25),
     Flower('carnation', 'black', '', 1.25),
+
+    Flower('chrysanthemum', 'white', '', 2.50),
+    Flower('chrysanthemum', 'pink', '', 2.50),
+    Flower('chrysanthemum', 'peach', '', 2.50),
+    Flower('chrysanthemum', 'yellow', '', 2.50),
+
+    Flower('cosmos', 'white', '', 3),
+    Flower('cosmos', 'black', '', 3),
+    Flower('cosmos', 'red', '', 3),
+
+    Flower('dahlia', 'white', '', 5),
+    Flower('dahlia', 'black', '', 5),
+    Flower('dahlia', 'red', '', 5),
+    Flower('dahlia', 'nude', '', 5),
+    Flower('dahlia', 'peach', '', 5),
+    Flower('dahlia', 'pink', '', 5),
+
+    Flower('echinacea', 'pink', '', 2),
+    Flower('echinacea', 'yellow', '', 2),
+    Flower('echinacea', 'red', '', 2),
+
+    Flower('garden roses', 'white', '', 10),
+    Flower('garden roses', 'pink', '', 10),
+    Flower('garden roses', 'peach', '', 10),
+    Flower('garden roses', 'red', '', 10),
+
+    Flower('gypsophila (babies breath', 'white', '', 3),
+
+    Flower('helleborus', 'white', '', 3),
+    Flower('helleborus', 'pink', '', 3),
+    Flower('helleborus', 'black', '', 3),
+
+    Flower('hydrangea', 'white', '', 9),
+    Flower('hydrangea', 'pink', '', 9),
+    Flower('hydrangea', 'violet', '', 9),
+
+    Flower('hydrangea', 'violet', '', 10),
+
 
 
 ]
