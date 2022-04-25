@@ -48,3 +48,35 @@ class FlowerDetail(generics.RetrieveUpdateDestroyAPIView):
         # Run the data through the serializer so it's formatted
         data = FlowerSerializer(flower).data
         return JsonResponse({ 'flower': data })
+    
+
+    def delete(self, request, pk):
+        """Delete request"""
+        # Locate mango to delete
+        mango = get_object_or_404(Mango, pk=pk)
+        # Check the mango's owner against the user making this request
+        if request.user != mango.owner:
+            raise PermissionDenied('Unauthorized, you do not own this mango')
+        # Only delete if the user owns the  mango
+        mango.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
+
+    def partial_update(self, request, pk):
+        """Update Request"""
+        # Locate Flower
+        # get_object_or_404 returns a object representation of our Flower
+        flower = get_object_or_404(Flower, pk=pk)
+        # Check the flower's owner against the user making this request
+        # if request.user != flower.owner:
+        #     raise PermissionDenied('Unauthorized, you do not own this flower')
+
+        # Ensure the owner field is set to the current user's ID
+        request.data['flower']['owner'] = request.user.id
+        # Validate updates with serializer
+        data = FlowerSerializer(flower, data=request.data['flower'], partial=True)
+        if data.is_valid():
+            # Save & send a 204 no content
+            data.save()
+            return Response(status=status.HTTP_204_NO_CONTENT)
+        # If the data is not valid, return a response with the errors
+        return Response(data.errors, status=status.HTTP_400_BAD_REQUEST)
