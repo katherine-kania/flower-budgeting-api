@@ -25,9 +25,9 @@ class Orders(generics.ListCreateAPIView):
     def post(self, request):
         """Create request"""
         # Add user to request data object
-        request.data['order']['owner'] = request.user.id
+        request.data['owner'] = request.user.id
         # Serialize/create order
-        order = OrderSerializer(data=request.data['order'])
+        order = OrderSerializer(data=request.data)
         # If the order data is valid according to our serializer...
         if order.is_valid():
             # Save the created order & send a response

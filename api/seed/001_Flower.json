@@ -6,73 +6,314 @@
         "img": "https://github.com/katherine-kania/project-4-api/blob/main/flower_images/allium_pink.jpg",
         "price_stem": 3
     },
+    {
+        "name":"allium",
+        "color": "violet",
+        "img": "https://github.com/katherine-kania/project-4-api/blob/main/flower_images/allium_violet.jpg",
+        "price_stem": 3
+    },
+    {
+        "name":"allium",
+        "color": "white",
+        "img": "https://github.com/katherine-kania/project-4-api/blob/main/flower_images/allium_white.jpg",
+        "price_stem": 3
+    },
+    {
+        "name":"andromedia",
+        "color": "white",
+        "img": "",
+        "price_stem": 4
+    },
+    {
+        "name":"anemone",
+        "color": "violet",
+        "img": "",
+        "price_stem": 3.5
+    },
+    {
+        "name":"anemone",
+        "color": "white",
+        "img": "",
+        "price_stem": 3.5
+    },
+    {
+        "name":"anemone",
+        "color": "red",
+        "img": "",
+        "price_stem": 3.5
+    },
+    {
+        "name":"anemone",
+        "color": "pink",
+        "img": "",
+        "price_stem": 3.5
+    },
+    {
+        "name":"anthurium",
+        "color": "red",
+        "img": "",
+        "price_stem": 12
+    },
+    {
+        "name":"anthurium",
+        "color": "white",
+        "img": "",
+        "price_stem": 12
+    },
+    {
+        "name":"anthurium",
+        "color": "peach",
+        "img": "",
+        "price_stem": 12
+    },
+    {
+        "name":"alstoemeria",
+        "color": "white",
+        "img": "",
+        "price_stem": 2
+    },
+    {
+        "name":"alstoemeria",
+        "color": "yellow",
+        "img": "",
+        "price_stem": 2
+    },
+    {
+        "name":"alstoemeria",
+        "color": "pink",
+        "img": "",
+        "price_stem": 2
+    },
+    {
+        "name":"alstoemeria",
+        "color": "red",
+        "img": "",
+        "price_stem": 2
+    },
+    {
+        "name":"astrantia",
+        "color": "white",
+        "img": "",
+        "price_stem": 2.75
+    },
+    {
+        "name":"blushing bride",
+        "color": "white",
+        "img": "",
+        "price_stem": 5
+    },
+    {
+        "name":"brodea",
+        "color": "white",
+        "img": "",
+        "price_stem": 2.50
+    },
+    {
+        "name":"brodea",
+        "color": "violet",
+        "img": "",
+        "price_stem": 2.50
+    },
+    {
+        "name":"carnation",
+        "color": "white",
+        "img": "",
+        "price_stem": 1.25
+    },
+    {
+        "name":"carnation",
+        "color": "nude",
+        "img": "",
+        "price_stem": 1.25
+    },
+    {
+        "name":"carnation",
+        "color": "pink",
+        "img": "",
+        "price_stem": 1.25
+    },
+    {
+        "name":"carnation",
+        "color": "red",
+        "img": "",
+        "price_stem": 1.25
+    },
+    {
+        "name":"carnation",
+        "color": "black",
+        "img": "",
+        "price_stem": 1.25
+    },
+    {
+        "name":"carnation",
+        "color": "violet",
+        "img": "",
+        "price_stem": 1.25
+    },
+    {
+        "name":"chrysanthemum",
+        "color": "white",
+        "img": "",
+        "price_stem": 3
+    },
+    {
+        "name":"chrysanthemum",
+        "color": "pink",
+        "img": "",
+        "price_stem": 3
+    },
+    {
+        "name":"chrysanthemum",
+        "color": "peach",
+        "img": "",
+        "price_stem": 3
+    },
+    {
+        "name":"chrysanthemum",
+        "color": "yellow",
+        "img": "",
+        "price_stem": 3
+    },
+    {
+        "name":"cosmos",
+        "color": "white",
+        "img": "",
+        "price_stem": 3
+    },
+    {
+        "name":"cosmos",
+        "color": "black",
+        "img": "",
+        "price_stem": 3
+    },
+    {
+        "name":"cosmos",
+        "color": "red",
+        "img": "",
+        "price_stem": 3
+    },
+    {
+        "name":"dahlia",
+        "color": "white",
+        "img": "",
+        "price_stem": 6
+    },
+    {
+        "name":"dahlia",
+        "color": "black",
+        "img": "",
+        "price_stem": 6
+    },
+    {
+        "name":"dahlia",
+        "color": "red",
+        "img": "",
+        "price_stem": 6
+    },
+    {
+        "name":"dahlia",
+        "color": "nude",
+        "img": "",
+        "price_stem": 6
+    },
+    {
+        "name":"dahlia",
+        "color": "peach",
+        "img": "",
+        "price_stem": 6
+    },
+    {
+        "name":"dahlia",
+        "color": "pink",
+        "img": "",
+        "price_stem": 6
+    },
+    {
+        "name":"echinacea",
+        "color": "pink",
+        "img": "",
+        "price_stem": 2
+    },
+    {
+        "name":"echinacea",
+        "color": "yellow",
+        "img": "",
+        "price_stem": 2
+    },
+    {
+        "name":"echinacea",
+        "color": "red",
+        "img": "",
+        "price_stem": 2
+    },
+    {
+        "name":"gypsophila (babies breath)",
+        "color": "white",
+        "img": "",
+        "price_stem": 3
+    },
+    {
+        "name":"helleborus",
+        "color": "white",
+        "img": "",
+        "price_stem": 3
+    },
+    {
+        "name":"helleborus",
+        "color": "pink",
+        "img": "",
+        "price_stem": 3
+    },
+    {
+        "name":"helleborus",
+        "color": "black",
+        "img": "",
+        "price_stem": 3
+    },
+    {
+        "name":"hydrangea",
+        "color": "white",
+        "img": "",
+        "price_stem": 9
+    },
+    {
+        "name":"hydrangea",
+        "color": "pink",
+        "img": "",
+        "price_stem": 9
+    },
+    {
+        "name":"hydrangea",
+        "color": "violet",
+        "img": "",
+        "price_stem": 9
+    },
+    {
+        "name":"leucadendron",
+        "color": "red",
+        "img": "",
+        "price_stem": 3.50
+    },
+    {
+        "name":"",
+        "color": "",
+        "img": "",
+        "price_stem": 
+    },
+    {
+        "name":"",
+        "color": "",
+        "img": "",
+        "price_stem": 
+    },
+    {
+        "name":"",
+        "color": "",
+        "img": "",
+        "price_stem": 
+    },
 
 
-
-    Flower('allium', 'violet', 'https://github.com/katherine-kania/project-4-api/blob/main/flower_images/allium_violet.jpg', 3),
-    Flower('allium', 'white', 'https://github.com/katherine-kania/project-4-api/blob/main/flower_images/allium_white.jpg', 3),
-
-    Flower('andromedia', 'white', '', 4),
-
-    Flower('anemone', 'violet', '', 3.5),
-    Flower('anemone', 'white', '', 3.5),
-    Flower('anemone', 'red', '', 3.5),
-    Flower('anemone', 'pink', '', 3.5),
-
-    Flower('anthurium', 'red', '', 12),
-    Flower('anthurium', 'white', '', 12),
-    Flower('anthurium', 'peach', '', 12),
-
-    Flower('alstoemeria', 'white', '', 2),
-    Flower('alstoemeria', 'yellow', '', 2),
-    Flower('alstoemeria', 'pink', '', 2),
-    Flower('alstoemeria', 'red', '', 2),
-
-    Flower('astrantia', 'white', '', 2.75),
-
-    Flower('blushing bride', 'white', '', 5),
-
-    Flower('brodea', 'white', '', 2.5),
-    Flower('brodea', 'violet', '', 2.5),
-
-    Flower('carnation', 'white', '', 1.25),
-    Flower('carnation', 'nude', '', 1.25),
-    Flower('carnation', 'pink', '', 1.25),
-    Flower('carnation', 'red', '', 1.25),
-    Flower('carnation', 'violet', '', 1.25),
-    Flower('carnation', 'black', '', 1.25),
-
-    Flower('chrysanthemum', 'white', '', 3),
-    Flower('chrysanthemum', 'pink', '', 3),
-    Flower('chrysanthemum', 'peach', '', 3),
-    Flower('chrysanthemum', 'yellow', '', 3),
-
-    Flower('cosmos', 'white', '', 3),
-    Flower('cosmos', 'black', '', 3),
-    Flower('cosmos', 'red', '', 3),
-
-    Flower('dahlia', 'white', '', 5),
-    Flower('dahlia', 'black', '', 5),
-    Flower('dahlia', 'red', '', 5),
-    Flower('dahlia', 'nude', '', 5),
-    Flower('dahlia', 'peach', '', 5),
-    Flower('dahlia', 'pink', '', 5),
-
-    Flower('echinacea', 'pink', '', 2),
-    Flower('echinacea', 'yellow', '', 2),
-    Flower('echinacea', 'red', '', 2),
-
-    Flower('gypsophila (babies breath', 'white', '', 3),
-
-    Flower('helleborus', 'white', '', 3),
-    Flower('helleborus', 'pink', '', 3),
-    Flower('helleborus', 'black', '', 3),
-
-    Flower('hydrangea', 'white', '', 9),
-    Flower('hydrangea', 'pink', '', 9),
-    Flower('hydrangea', 'violet', '', 9),
-
-    Flower('leucadendron', 'red', '', 3.50),
 
     Flower('lilies, asiatic', 'white', '', 4),
     Flower('lilies, asiatic', 'pink', '', 4),
