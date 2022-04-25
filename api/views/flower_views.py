@@ -23,7 +23,8 @@ class Flowers(generics.ListCreateAPIView):
         # basic request to front end json
         flowers = Flower.objects.all()
         data = FlowerSerializer(flowers, many=True).data
-        return JsonResponse(data)
+        return JsonResponse({'flowers': data})
+        # return Response(data)
         
     def post(self, request):
         """Create flowers"""
@@ -59,7 +60,7 @@ class FlowerDetail(generics.RetrieveUpdateDestroyAPIView):
             raise PermissionDenied('Unauthorized, you do not own this flower')
         # Only delete if the user owns the flower
         flower.delete()
-        return Response(status=status.HTTP_204_NO_CONTENT)
+        return JsonResponse(status=status.HTTP_204_NO_CONTENT)
 
     def partial_update(self, request, pk):
         """Update Request"""
@@ -77,6 +78,6 @@ class FlowerDetail(generics.RetrieveUpdateDestroyAPIView):
         if data.is_valid():
             # Save & send a 204 no content
             data.save()
-            return Response(status=status.HTTP_204_NO_CONTENT)
+            return JsonResponse(status=status.HTTP_204_NO_CONTENT)
         # If the data is not valid, return a response with the errors
-        return Response(data.errors, status=status.HTTP_400_BAD_REQUEST)
+        return JsonResponse(data.errors, status=status.HTTP_400_BAD_REQUEST)
