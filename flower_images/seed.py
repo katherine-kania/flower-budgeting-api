@@ -137,5 +137,20 @@ flowers = [
     Flower('stock', 'violet', '', 4),
     Flower('stock', 'peach', '', 4),
 
+    Flower('sweat pea', 'white', '', 3),
+    Flower('sweat pea', 'pink', '', 3),
+    Flower('sweat pea', 'red', '', 3),
+    Flower('sweat pea', 'violet', '', 3),
+    Flower('sweat pea', 'nude', '', 3),
+    Flower('sweat pea', 'peach', '', 3),
+
+    Flower('sun flower', 'yellow', '', 3),+++
+
+    Flower('tulips', 'yellow', '', 4),
+
+    Flower('waxflower', 'yellow', '', 4),
+
+    Flower('zinnia', 'yellow', '', 4),
+
 
 ]
