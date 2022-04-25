@@ -1,13 +1,8 @@
-#  'name': self.name,
-#  'color': self.color,
-#  'img,': self.img,
-#  'price_stem,': self.price_stem
-# from ..models import Flower
 
 flowers = [
-    Flower('allium', 'whites', '', 3),
-    Flower('allium', 'violets', '', 3),
-    Flower('allium', 'pink', '', 3),
+    Flower('allium', 'pink', 'https://github.com/katherine-kania/project-4-api/blob/main/flower_images/allium_pink.jpg', 3),
+    Flower('allium', 'violet', 'https://github.com/katherine-kania/project-4-api/blob/main/flower_images/allium_violet.jpg', 3),
+    Flower('allium', 'white', 'https://github.com/katherine-kania/project-4-api/blob/main/flower_images/allium_white.jpg', 3),
 
     Flower('andromedia', 'white', '', 4),
 
@@ -161,5 +156,4 @@ flowers = [
     Flower('zinnia', 'red', '', 1.25),
     Flower('zinnia', 'peach', '', 1.25),
     Flower('zinnia', 'yellow', '', 1.25)
-
 ]

@@ -34,3 +34,17 @@ class Flowers(generics.ListCreateAPIView):
             return JsonResponse(flower.data, status=status.HTTP_201_CREATED)
         else:
             return JsonResponse(flower.errors, status=status.HTTP_400_BAD_REQUEST)
+
+class FlowerDetail(generics.RetrieveUpdateDestroyAPIView):
+    permission_classes=(IsAuthenticated,)
+    def get(self, request, pk):
+        """Show request"""
+        # Locate the flower to show
+        flower = get_object_or_404(Flower, pk=pk)
+        # # Only want to show owned flowers?
+        # if request.user != mango.owner:
+        #     raise PermissionDenied('Unauthorized, you do not own this mango')
+
+        # Run the data through the serializer so it's formatted
+        data = FlowerSerializer(flower).data
+        return JsonResponse({ 'flower': data })
