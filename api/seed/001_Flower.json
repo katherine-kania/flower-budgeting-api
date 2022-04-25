@@ -295,115 +295,423 @@
         "price_stem": 3.50
     },
     {
-        "name":"",
-        "color": "",
+        "name":"lily, asiatic",
+        "color": "white",
         "img": "",
-        "price_stem": 
+        "price_stem": 4
     },
     {
-        "name":"",
-        "color": "",
+        "name":"lily, asiatic",
+        "color": "pink",
         "img": "",
-        "price_stem": 
+        "price_stem": 4
     },
     {
-        "name":"",
-        "color": "",
+        "name":"lily, asiatic",
+        "color": "red",
         "img": "",
-        "price_stem": 
+        "price_stem": 4
     },
-
-
-
-    Flower('lilies, asiatic', 'white', '', 4),
-    Flower('lilies, asiatic', 'pink', '', 4),
-    Flower('lilies, asiatic', 'red', '', 4),
-    Flower('lilies, asiatic', 'yellow', '', 4),
-
-    Flower('lisianthus', 'white', '', 2.50),
-    Flower('lisianthus', 'pink', '', 2.50),
-    Flower('lisianthus', 'violet', '', 2.50),
-    Flower('lisianthus', 'red', '', 2.50),
-    Flower('lisianthus', 'peach', '', 2.50),
-
-    Flower('peony', 'white', '', 9),
-    Flower('peony', 'pink', '', 9),
-    Flower('peony', 'red', '', 9),
-    Flower('peony', 'white', '', 9),
-
-    Flower('poppy, royal wedding', 'white', '', 8),
-    Flower('poppy, pink ruffles', 'pink', '', 8),
-    Flower('poppy, purple', 'violet', '', 8),
-    Flower('poppy, orange', 'peach', '', 8),
-
-    Flower('protea, nerifolia', 'pink', '', 18),
-
-    Flower('protea, pincushion', 'red', '', 10),
-    Flower('protea, pincushion', 'yellow', '', 10),
-
-    Flower('queen anne\'s lace', 'white', '', 2.50),
-
-    Flower('ranunculus', 'white', '', 6),
-    Flower('ranunculus', 'pink', '', 6),
-    Flower('ranunculus', 'red', '', 6),
-    Flower('ranunculus', 'peach', '', 6),
-    Flower('ranunculus', 'violet', '', 6),
-    Flower('ranunculus', 'black', '', 6),
-
-    Flower('roses, garden', 'white', '', 10),
-    Flower('roses, garden', 'pink', '', 10),
-    Flower('roses, garden', 'peach', '', 10),
-    Flower('roses, garden', 'red', '', 10),
-
-    Flower('roses, spray', 'white', '', 3),
-    Flower('roses, spray', 'pink', '', 3),
-    Flower('roses, spray', 'peach', '', 3),
-    Flower('roses, spray', 'nude', '', 3),
-    Flower('roses, spray', 'red', '', 3),
-    Flower('roses, spray', 'violet', '', 3),
-
-    Flower('scabiosa', 'white', '', 2.50),
-    Flower('scabiosa', 'pink', '', 2.50),
-    Flower('scabiosa', 'violet', '', 2.50),
-    Flower('scabiosa', 'black', '', 2.50),
-
-    Flower('seaholly', 'violet', '', 1.50),
-
-    Flower('silver brunia', 'white', '', 3),
-
-    Flower('snapdragon', 'white', '', 5),
-    Flower('snapdragon', 'pink', '', 5),
-    Flower('snapdragon', 'red', '', 5),
-    Flower('snapdragon', 'yellow', '', 5),
-
-    Flower('stock', 'white', '', 4),
-    Flower('stock', 'pink', '', 4),
-    Flower('stock', 'violet', '', 4),
-    Flower('stock', 'peach', '', 4),
-
-    Flower('sweat pea', 'white', '', 3),
-    Flower('sweat pea', 'pink', '', 3),
-    Flower('sweat pea', 'red', '', 3),
-    Flower('sweat pea', 'violet', '', 3),
-    Flower('sweat pea', 'nude', '', 3),
-    Flower('sweat pea', 'peach', '', 3),
-
-    Flower('sun flower', 'yellow', '', 2.50),
-
-    Flower('tulip', 'white', '', 3),
-    Flower('tulip', 'pink', '', 3),
-    Flower('tulip', 'red', '', 3),
-    Flower('tulip', 'violet', '', 3),
-    Flower('tulip', 'peach', '', 3),
-    Flower('tulip', 'yellow', '', 3),
-
-    Flower('waxflower', 'white', '', 2.75),
-    Flower('waxflower', 'pink', '', 2.75),
-
-    Flower('zinnia', 'white', '', 1.25),
-    Flower('zinnia', 'pink', '', 1.25),
-    Flower('zinnia', 'red', '', 1.25),
-    Flower('zinnia', 'peach', '', 1.25),
-    Flower('zinnia', 'yellow', '', 1.25)
+    {
+        "name":"lily, asiatic",
+        "color": "yellow",
+        "img": "",
+        "price_stem": 4
+    },
+    {
+        "name":"lisianthus",
+        "color": "white",
+        "img": "",
+        "price_stem": 2.50
+    },
+    {
+        "name":"lisianthus",
+        "color": "pink",
+        "img": "",
+        "price_stem": 2.50
+    },
+    {
+        "name":"lisianthus",
+        "color": "violet",
+        "img": "",
+        "price_stem": 2.50
+    },
+    {
+        "name":"lisianthus",
+        "color": "red",
+        "img": "",
+        "price_stem": 2.50
+    },
+    {
+        "name":"lisianthus",
+        "color": "peach",
+        "img": "",
+        "price_stem": 2.50
+    },
+    {
+        "name":"peony",
+        "color": "white",
+        "img": "",
+        "price_stem": 9
+    },
+    {
+        "name":"peony",
+        "color": "pink",
+        "img": "",
+        "price_stem": 9
+    },
+    {
+        "name":"peony",
+        "color": "red",
+        "img": "",
+        "price_stem": 9
+    },
+    {
+        "name":"poppy",
+        "color": "white",
+        "img": "",
+        "price_stem": 8
+    },
+    {
+        "name":"poppy",
+        "color": "pink",
+        "img": "",
+        "price_stem": 8
+    },
+    {
+        "name":"poppy",
+        "color": "violet",
+        "img": "",
+        "price_stem": 8
+    },
+    {
+        "name":"poppy",
+        "color": "peach",
+        "img": "",
+        "price_stem": 8
+    },
+    {
+        "name":"protea, nerifolia",
+        "color": "pink",
+        "img": "",
+        "price_stem": 18 
+    },
+    {
+        "name":"protea, pincushion",
+        "color": "red",
+        "img": "",
+        "price_stem": 10
+    },
+    {
+        "name":"protea, pincushion",
+        "color": "yellow",
+        "img": "",
+        "price_stem": 10
+    },
+    {
+        "name":"queen anne's lace",
+        "color": "white",
+        "img": "",
+        "price_stem": 2.50
+    },
+    {
+        "name":"ranunculus",
+        "color": "white",
+        "img": "",
+        "price_stem": 6
+    },
+    {
+        "name":"ranunculus",
+        "color": "pink",
+        "img": "",
+        "price_stem": 6
+    },
+    {
+        "name":"ranunculus",
+        "color": "red",
+        "img": "",
+        "price_stem": 6
+    },
+    {
+        "name":"ranunculus",
+        "color": "peach",
+        "img": "",
+        "price_stem": 6
+    },
+    {
+        "name":"ranunculus",
+        "color": "violet",
+        "img": "",
+        "price_stem": 6
+    },
+    {
+        "name":"ranunculus",
+        "color": "black",
+        "img": "",
+        "price_stem": 6
+    },
+    {
+        "name":"roses, garden",
+        "color": "white",
+        "img": "",
+        "price_stem": 10
+    },
+    {
+        "name":"roses, garden",
+        "color": "pink",
+        "img": "",
+        "price_stem": 10
+    },
+    {
+        "name":"roses, garden",
+        "color": "peach",
+        "img": "",
+        "price_stem": 10
+    },
+    {
+        "name":"roses, garden",
+        "color": "red",
+        "img": "",
+        "price_stem": 10
+    },
+    {
+        "name":"roses, spray",
+        "color": "white",
+        "img": "",
+        "price_stem": 4
+    },
+    {
+        "name":"roses, spray",
+        "color": "pink",
+        "img": "",
+        "price_stem": 4
+    },
+    {
+        "name":"roses, spray",
+        "color": "peach",
+        "img": "",
+        "price_stem": 4
+    },
+    {
+        "name":"roses, spray",
+        "color": "nude",
+        "img": "",
+        "price_stem": 4
+    },
+    {
+        "name":"roses, spray",
+        "color": "red",
+        "img": "",
+        "price_stem": 4
+    },
+    {
+        "name":"roses, spray",
+        "color": "violet",
+        "img": "",
+        "price_stem": 4
+    },
+    {
+        "name":"scabiosa",
+        "color": "white",
+        "img": "",
+        "price_stem": 2.50
+    },
+    {
+        "name":"scabiosa",
+        "color": "pink",
+        "img": "",
+        "price_stem": 2.50
+    },
+    {
+        "name":"scabiosa",
+        "color": "violet",
+        "img": "",
+        "price_stem": 2.50
+    },
+    {
+        "name":"scabiosa",
+        "color": "black",
+        "img": "",
+        "price_stem": 2.50
+    },
+    {
+        "name":"seaholly",
+        "color": "violet",
+        "img": "",
+        "price_stem": 1.50 
+    },
+    {
+        "name":"silver brunia",
+        "color": "white",
+        "img": "",
+        "price_stem": 3
+    },
+    {
+        "name":"snapdragon",
+        "color": "white",
+        "img": "",
+        "price_stem": 5
+    },
+    {
+        "name":"snapdragon",
+        "color": "pink",
+        "img": "",
+        "price_stem": 5
+    },
+    {
+        "name":"snapdragon",
+        "color": "red",
+        "img": "",
+        "price_stem": 5
+    },
+    {
+        "name":"snapdragon",
+        "color": "yellow",
+        "img": "",
+        "price_stem": 5
+    },
+    {
+        "name":"stock",
+        "color": "white",
+        "img": "",
+        "price_stem": 4
+    },
+    {
+        "name":"stock",
+        "color": "pink",
+        "img": "",
+        "price_stem": 4
+    },
+    {
+        "name":"stock",
+        "color": "violet",
+        "img": "",
+        "price_stem": 4
+    },
+    {
+        "name":"stock",
+        "color": "peach",
+        "img": "",
+        "price_stem": 4
+    },
+    {
+        "name":"sweat pea",
+        "color": "white",
+        "img": "",
+        "price_stem": 3
+    },
+    {
+        "name":"sweat pea",
+        "color": "pink",
+        "img": "",
+        "price_stem": 3
+    },
+    {
+        "name":"sweat pea",
+        "color": "red",
+        "img": "",
+        "price_stem": 3
+    },
+    {
+        "name":"sweat pea",
+        "color": "violet",
+        "img": "",
+        "price_stem": 3
+    },
+    {
+        "name":"sweat pea",
+        "color": "nude",
+        "img": "",
+        "price_stem": 3
+    },
+    {
+        "name":"sweat pea",
+        "color": "peach",
+        "img": "",
+        "price_stem": 3
+    },
+    {
+        "name":"sun flower",
+        "color": "yellow",
+        "img": "",
+        "price_stem": 2.50
+    },
+    {
+        "name":"tulip",
+        "color": "white",
+        "img": "",
+        "price_stem": 3
+    },
+    {
+        "name":"tulip",
+        "color": "pink",
+        "img": "",
+        "price_stem": 3
+    },
+    {
+        "name":"tulip",
+        "color": "red",
+        "img": "",
+        "price_stem": 3
+    },
+    {
+        "name":"tulip",
+        "color": "violet",
+        "img": "",
+        "price_stem": 3
+    },
+    {
+        "name":"tulip",
+        "color": "peach",
+        "img": "",
+        "price_stem": 3
+    },
+    {
+        "name":"tulip",
+        "color": "yellow",
+        "img": "",
+        "price_stem": 3
+    },
+    {
+        "name":"waxflower",
+        "color": "white",
+        "img": "",
+        "price_stem": 2.75
+    },
+    {
+        "name":"waxflower",
+        "color": "pink",
+        "img": "",
+        "price_stem": 2.75
+    },
+    {
+        "name":"zinnia",
+        "color": "white",
+        "img": "",
+        "price_stem": 1.25
+    },
+    {
+        "name":"zinnia",
+        "color": "pink",
+        "img": "",
+        "price_stem": 1.25
+    },
+    {
+        "name":"zinnia",
+        "color": "red",
+        "img": "",
+        "price_stem": 1.25
+    },
+    {
+        "name":"zinnia",
+        "color": "peach",
+        "img": "",
+        "price_stem": 1.25
+    },
+    {
+        "name":"zinnia",
+        "color": "yellow",
+        "img": "",
+        "price_stem": 1.25
+    }
 ]
-}
