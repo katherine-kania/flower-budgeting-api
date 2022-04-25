@@ -144,13 +144,22 @@ flowers = [
     Flower('sweat pea', 'nude', '', 3),
     Flower('sweat pea', 'peach', '', 3),
 
-    Flower('sun flower', 'yellow', '', 3),+++
+    Flower('sun flower', 'yellow', '', 2.50),
 
-    Flower('tulips', 'yellow', '', 4),
+    Flower('tulip', 'white', '', 3),
+    Flower('tulip', 'pink', '', 3),
+    Flower('tulip', 'red', '', 3),
+    Flower('tulip', 'violet', '', 3),
+    Flower('tulip', 'peach', '', 3),
+    Flower('tulip', 'yellow', '', 3),
 
-    Flower('waxflower', 'yellow', '', 4),
+    Flower('waxflower', 'white', '', 2.75),
+    Flower('waxflower', 'pink', '', 2.75),
 
-    Flower('zinnia', 'yellow', '', 4),
-
+    Flower('zinnia', 'white', '', 1.25),
+    Flower('zinnia', 'pink', '', 1.25),
+    Flower('zinnia', 'red', '', 1.25),
+    Flower('zinnia', 'peach', '', 1.25),
+    Flower('zinnia', 'yellow', '', 1.25)
 
 ]
