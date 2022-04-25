@@ -15,7 +15,7 @@ class Flowers(generics.ListCreateAPIView):
         """Index request"""
         # Get all the flowers:
         # flowers = Flower.objects.all()
-        # Filter the mangos by owner, so you can only see your owned mangos
+        # Filter the flowers by owner, so you can only see your owned mangos
         # flowers = Flower.objects.filter(owner=request.user.id)
         # Run the data through the serializer
         # data = FlowerSerializer(flowers, many=True).data
@@ -42,8 +42,8 @@ class FlowerDetail(generics.RetrieveUpdateDestroyAPIView):
         # Locate the flower to show
         flower = get_object_or_404(Flower, pk=pk)
         # # Only want to show owned flowers?
-        # if request.user != mango.owner:
-        #     raise PermissionDenied('Unauthorized, you do not own this mango')
+        # if request.user != flower.owner:
+        #     raise PermissionDenied('Unauthorized, you do not own this flower')
 
         # Run the data through the serializer so it's formatted
         data = FlowerSerializer(flower).data
@@ -52,13 +52,13 @@ class FlowerDetail(generics.RetrieveUpdateDestroyAPIView):
 
     def delete(self, request, pk):
         """Delete request"""
-        # Locate mango to delete
-        mango = get_object_or_404(Mango, pk=pk)
-        # Check the mango's owner against the user making this request
-        if request.user != mango.owner:
-            raise PermissionDenied('Unauthorized, you do not own this mango')
-        # Only delete if the user owns the  mango
-        mango.delete()
+        # Locate flower to delete
+        flower = get_object_or_404(Flower, pk=pk)
+        # Check the flower's owner against the user making this request
+        if request.user != flower.owner:
+            raise PermissionDenied('Unauthorized, you do not own this flower')
+        # Only delete if the user owns the flower
+        flower.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
 
     def partial_update(self, request, pk):

@@ -13,7 +13,7 @@ class FlowerSerializer(serializers.ModelSerializer):
 class OrderSerializer(serializers.ModelSerializer):
     class Meta:
         model = Order
-        fields = ('id', 'name', 'size', 'price_range', 'color', 'vase_mat', 'vase_type', 'owner')
+        fields = ('id', 'name', 'size', 'price_range', 'color', 'flower', 'vase', 'user')
 
 class UserSerializer(serializers.ModelSerializer):
     # This model serializer will be used for User creation

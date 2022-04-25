@@ -3,6 +3,7 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.exceptions import PermissionDenied
 from rest_framework import generics, status
 from django.shortcuts import get_object_or_404
+from django.http import JsonResponse
 
 from ..models.order import Order
 from ..serializers import OrderSerializer
@@ -19,21 +20,21 @@ class Orders(generics.ListCreateAPIView):
         orders = Order.objects.filter(owner=request.user.id)
         # Run the data through the serializer
         data = OrderSerializer(orders, many=True).data
-        return Response({ 'orders': data })
+        return JsonResponse({ 'orders': data })
 
     def post(self, request):
         """Create request"""
         # Add user to request data object
         request.data['order']['owner'] = request.user.id
-        # Serialize/create mango
+        # Serialize/create order
         order = OrderSerializer(data=request.data['order'])
         # If the order data is valid according to our serializer...
         if order.is_valid():
             # Save the created order & send a response
             order.save()
-            return Response({ 'order': order.data }, status=status.HTTP_201_CREATED)
+            return JsonResponse({ 'order': order.data }, status=status.HTTP_201_CREATED)
         # If the data is not valid, return a response with the errors
-        return Response(order.errors, status=status.HTTP_400_BAD_REQUEST)
+        return JsonResponse(order.errors, status=status.HTTP_400_BAD_REQUEST)
 
 class OrderDetail(generics.RetrieveUpdateDestroyAPIView):
     permission_classes=(IsAuthenticated,)
@@ -47,7 +48,7 @@ class OrderDetail(generics.RetrieveUpdateDestroyAPIView):
 
         # Run the data through the serializer so it's formatted
         data = OrderSerializer(order).data
-        return Response({ 'order': data })
+        return JsonResponse({ 'order': data })
 
     def delete(self, request, pk):
         """Delete request"""
@@ -58,7 +59,7 @@ class OrderDetail(generics.RetrieveUpdateDestroyAPIView):
             raise PermissionDenied('Unauthorized, you do not own this order')
         # Only delete if the user owns the order
         order.delete()
-        return Response(status=status.HTTP_204_NO_CONTENT)
+        return JsonResponse(status=status.HTTP_204_NO_CONTENT)
 
     def partial_update(self, request, pk):
         """Update Request"""
@@ -76,6 +77,6 @@ class OrderDetail(generics.RetrieveUpdateDestroyAPIView):
         if data.is_valid():
             # Save & send a 204 no content
             data.save()
-            return Response(status=status.HTTP_204_NO_CONTENT)
+            return JsonResponse(status=status.HTTP_204_NO_CONTENT)
         # If the data is not valid, return a response with the errors
-        return Response(data.errors, status=status.HTTP_400_BAD_REQUEST)
+        return JsonResponse(data.errors, status=status.HTTP_400_BAD_REQUEST)
