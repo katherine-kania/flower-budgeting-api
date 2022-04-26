@@ -361,21 +361,21 @@
     },
     {
       "model": "api.flower",
-      "pk": 33,
+      "pk": 37,
       "fields": {
         "name":"dahlia",
-        "color": "white",
-        "img": "",
+        "color": "red",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008197/dahlia_red_mulj3s.jpg",
         "price_stem": 6
         }
     },
     {
       "model": "api.flower",
-      "pk": 35,
+      "pk": 38,
       "fields": {
         "name":"dahlia",
-        "color": "red",
-        "img": "",
+        "color": "white",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008197/dahlia_white_ugib5e.jpg",
         "price_stem": 6
         }
     },
@@ -385,7 +385,7 @@
       "fields": {
         "name":"echinacea",
         "color": "pink",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008197/echinacea_pink_z10rbf.jpg",
         "price_stem": 2
         }
     },
@@ -394,8 +394,8 @@
       "pk": 40,
       "fields": {
         "name":"echinacea",
-        "color": "yellow",
-        "img": "",
+        "color": "red",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008197/echinacea_red_dxwnyk.jpg",
         "price_stem": 2
         }
     },
@@ -404,8 +404,8 @@
       "pk": 41,
       "fields": {
         "name":"echinacea",
-        "color": "red",
-        "img": "",
+        "color": "yellow",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008197/echinacea_yellow_u4vvfn.jpg",
         "price_stem": 2
         }
     },
@@ -415,7 +415,7 @@
       "fields": {
         "name":"gypsophila (babies breath)",
         "color": "white",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008198/gyposphila_white_rmcnnq.jpg",
         "price_stem": 3
         }
     },
@@ -424,8 +424,8 @@
       "pk": 43,
       "fields": {
         "name":"helleborus",
-        "color": "white",
-        "img": "",
+        "color": "black",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008198/helleborus_black_xazpbl.jpg",
         "price_stem": 3
         }
     },
@@ -435,7 +435,7 @@
       "fields": {
         "name":"helleborus",
         "color": "pink",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008198/helleborus_pink_mifjd9.jpg",
         "price_stem": 3
         }
     },
@@ -444,8 +444,8 @@
       "pk": 45,
       "fields": {
         "name":"helleborus",
-        "color": "black",
-        "img": "",
+        "color": "white",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008198/helleborus_white_mvvwn7.jpg",
         "price_stem": 3
         }
     },
@@ -454,8 +454,8 @@
       "pk": 46,
       "fields": {
         "name":"hydrangea",
-        "color": "white",
-        "img": "",
+        "color": "pink",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008199/hydrangea_pink_e7fa4o.jpg",
         "price_stem": 9
         }
     },
@@ -464,8 +464,8 @@
       "pk": 47,
       "fields": {
         "name":"hydrangea",
-        "color": "pink",
-        "img": "",
+        "color": "violet",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008198/hydrangea_violet_sk9tu1.jpg",
         "price_stem": 9
         }
     },
@@ -474,8 +474,8 @@
       "pk": 48,
       "fields": {
         "name":"hydrangea",
-        "color": "violet",
-        "img": "",
+        "color": "white",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008199/hydrangea_white_luyowm.jpg",
         "price_stem": 9
         }
     },
@@ -485,18 +485,8 @@
       "fields": {
         "name":"leucadendron",
         "color": "red",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008199/leucadendron_red_ugopsm.jpg",
         "price_stem": 3.50
-        }
-    },
-    {
-      "model": "api.flower",
-      "pk": 50,
-      "fields": {
-        "name":"lily, asiatic",
-        "color": "white",
-        "img": "",
-        "price_stem": 4
         }
     },
     {
@@ -505,7 +495,7 @@
       "fields": {
         "name":"lily, asiatic",
         "color": "pink",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008199/lilies_asiatic_pink_avngzt.jpg",
         "price_stem": 4
         }
     },
@@ -515,7 +505,7 @@
       "fields": {
         "name":"lily, asiatic",
         "color": "red",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008199/lilies_asiatic_red_hmiinx.jpg",
         "price_stem": 4
         }
     },
@@ -524,8 +514,8 @@
       "pk": 53,
       "fields": {
         "name":"lily, asiatic",
-        "color": "yellow",
-        "img": "",
+        "color": "white",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008199/lilies_asiatic_white_w2nupe.jpg",
         "price_stem": 4
         }
     },
@@ -533,10 +523,10 @@
       "model": "api.flower",
       "pk": 54,
       "fields": {
-        "name":"lisianthus",
-        "color": "white",
-        "img": "",
-        "price_stem": 2.50
+        "name":"lily, asiatic",
+        "color": "yellow",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008199/lilies_asiatic_yellow_o1cct9.jpg",
+        "price_stem": 4
         }
     },
     {
@@ -544,8 +534,8 @@
       "pk": 55,
       "fields": {
         "name":"lisianthus",
-        "color": "pink",
-        "img": "",
+        "color": "peach",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008199/lisianthus_peach_kxl63m.jpg",
         "price_stem": 2.50
         }
     },
@@ -554,8 +544,8 @@
       "pk": 56,
       "fields": {
         "name":"lisianthus",
-        "color": "violet",
-        "img": "",
+        "color": "pink",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008199/lisianthus_pink_vcknf1.jpg",
         "price_stem": 2.50
         }
     },
@@ -565,7 +555,7 @@
       "fields": {
         "name":"lisianthus",
         "color": "red",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008199/lisianthus_red_shxzhz.jpg",
         "price_stem": 2.50
         }
     },
@@ -574,8 +564,8 @@
       "pk": 58,
       "fields": {
         "name":"lisianthus",
-        "color": "peach",
-        "img": "",
+        "color": "violet",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008199/lisianthus_violet_iiwq6w.jpg",
         "price_stem": 2.50
         }
     },
@@ -583,10 +573,10 @@
       "model": "api.flower",
       "pk": 59,
       "fields": {
-        "name":"peony",
+        "name":"lisianthus",
         "color": "white",
-        "img": "",
-        "price_stem": 9
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008200/lisianthus_white_ooandy.jpg",
+        "price_stem": 2.50
         }
     },
     {
@@ -595,7 +585,7 @@
       "fields": {
         "name":"peony",
         "color": "pink",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008199/peony_pink_la3ltq.jpg",
         "price_stem": 9
         }
     },
@@ -605,7 +595,7 @@
       "fields": {
         "name":"peony",
         "color": "red",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008199/peony_red_qg7uja.jpg",
         "price_stem": 9
         }
     },
@@ -613,10 +603,10 @@
       "model": "api.flower",
       "pk": 62,
       "fields": {
-        "name":"poppy",
+        "name":"peony",
         "color": "white",
-        "img": "",
-        "price_stem": 8
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008199/peony_white_sdsnae.jpg",
+        "price_stem": 9
         }
     },
     {
@@ -624,8 +614,8 @@
       "pk": 63,
       "fields": {
         "name":"poppy",
-        "color": "pink",
-        "img": "",
+        "color": "orange",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008200/poppy_orange_rewtqj.jpg",
         "price_stem": 8
         }
     },
@@ -634,8 +624,8 @@
       "pk": 64,
       "fields": {
         "name":"poppy",
-        "color": "violet",
-        "img": "",
+        "color": "pink",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008200/poppy_pink_malrtz.jpg",
         "price_stem": 8
         }
     },
@@ -644,8 +634,8 @@
       "pk": 65,
       "fields": {
         "name":"poppy",
-        "color": "peach",
-        "img": "",
+        "color": "violet",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008200/poppy_violet_flrbgv.jpg",
         "price_stem": 8
         }
     },
@@ -653,10 +643,10 @@
       "model": "api.flower",
       "pk": 66,
       "fields": {
-        "name":"protea, nerifolia",
-        "color": "pink",
-        "img": "",
-        "price_stem": 18 
+        "name":"poppy",
+        "color": "white",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008200/poppy_white_anfbqv.jpg",
+        "price_stem": 8
         }
     },
     {
@@ -665,7 +655,7 @@
       "fields": {
         "name":"protea, pincushion",
         "color": "red",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008200/protea_pincushion_red_zpzc5l.jpg",
         "price_stem": 10
         }
     },
@@ -675,7 +665,7 @@
       "fields": {
         "name":"protea, pincushion",
         "color": "yellow",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008200/protea_pincushion_yellow_mghfqa.jpg",
         "price_stem": 10
         }
     },
@@ -683,20 +673,20 @@
       "model": "api.flower",
       "pk": 69,
       "fields": {
-        "name":"queen anne's lace",
-        "color": "white",
-        "img": "",
-        "price_stem": 2.50
+        "name":"protea, nerifolia",
+        "color": "pink",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008200/protea_pink_emwjs8.jpg",
+        "price_stem": 18 
         }
     },
     {
       "model": "api.flower",
       "pk": 70,
       "fields": {
-        "name":"ranunculus",
+        "name":"queen anne's lace",
         "color": "white",
-        "img": "",
-        "price_stem": 6
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008200/queen_annes_lace_white_vxkca7.jpg",
+        "price_stem": 2.50
         }
     },
     {
@@ -704,8 +694,8 @@
       "pk": 71,
       "fields": {
         "name":"ranunculus",
-        "color": "pink",
-        "img": "",
+        "color": "black",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008200/ranunculus_black_z1ck1c.jpg",
         "price_stem": 6
         }
     },
@@ -714,8 +704,8 @@
       "pk": 72,
       "fields": {
         "name":"ranunculus",
-        "color": "red",
-        "img": "",
+        "color": "peach",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008200/ranunculus_peach_fcnfrz.jpg",
         "price_stem": 6
         }
     },
@@ -724,8 +714,8 @@
       "pk": 73,
       "fields": {
         "name":"ranunculus",
-        "color": "peach",
-        "img": "",
+        "color": "pink",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008201/ranunculus_pink_tzrfny.jpg",
         "price_stem": 6
         }
     },
@@ -734,8 +724,8 @@
       "pk": 74,
       "fields": {
         "name":"ranunculus",
-        "color": "violet",
-        "img": "",
+        "color": "red",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008201/ranunculus_red_boqtqn.jpg",
         "price_stem": 6
         }
     },
@@ -744,14 +734,34 @@
       "pk": 75,
       "fields": {
         "name":"ranunculus",
-        "color": "black",
-        "img": "",
+        "color": "violet",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008201/ranunculus_violet_myo7jy.jpg",
         "price_stem": 6
         }
     },
     {
       "model": "api.flower",
       "pk": 76,
+      "fields": {
+        "name":"ranunculus",
+        "color": "white",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008201/ranunculus_white_kom8ao.jpg",
+        "price_stem": 6
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 78,
+      "fields": {
+        "name":"roses, garden",
+        "color": "peach",
+        "img": "",
+        "price_stem": 10
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 77,
       "fields": {
         "name":"roses, garden",
         "color": "white",
@@ -765,16 +775,6 @@
       "fields": {
         "name":"roses, garden",
         "color": "pink",
-        "img": "",
-        "price_stem": 10
-        }
-    },
-    {
-      "model": "api.flower",
-      "pk": 78,
-      "fields": {
-        "name":"roses, garden",
-        "color": "peach",
         "img": "",
         "price_stem": 10
         }
