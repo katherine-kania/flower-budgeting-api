@@ -5,7 +5,7 @@
       "fields": {
         "name":"allium",
         "color": "pink",
-        "img": "https://github.com/katherine-kania/project-4-api/blob/main/flower_images/allium_pink.jpg",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008195/allium_pink_dpyvja.jpg",
         "price_stem": 3
         }
     },
@@ -15,9 +15,9 @@
       "fields": {
         "name":"allium",
         "color": "violet",
-        "img": "https://github.com/katherine-kania/project-4-api/blob/main/flower_images/allium_violet.jpg",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008194/allium_violet_xuptvx.jpg",
         "price_stem": 3
-        }
+      }
     },
     {
       "model": "api.flower",
@@ -25,128 +25,128 @@
       "fields": {
         "name":"allium",
         "color": "white",
-        "img": "https://github.com/katherine-kania/project-4-api/blob/main/flower_images/allium_white.jpg",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008195/allium_white_fxvucj.jpg",
         "price_stem": 3
-        }
+      }
     },
     {
       "model": "api.flower",
       "pk": 4,
       "fields": {
-        "name":"andromedia",
-        "color": "white",
-        "img": "",
-        "price_stem": 4
+        "name":"alstoemeria",
+        "color": "pink",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008195/alstroemeria_pink_xla8xh.jpg",
+        "price_stem": 2
         }
     },
     {
       "model": "api.flower",
       "pk": 5,
       "fields": {
-        "name":"anemone",
-        "color": "violet",
-        "img": "",
-        "price_stem": 3.5
+        "name":"alstoemeria",
+        "color": "red",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008196/alstroemeria_red_d7jliz.jpg",
+        "price_stem": 2
         }
     },
     {
       "model": "api.flower",
       "pk": 6,
       "fields": {
-        "name":"anemone",
+        "name":"alstoemeria",
         "color": "white",
-        "img": "",
-        "price_stem": 3.5
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008195/alstroemeria_white_a9ywfa.jpg",
+        "price_stem": 2
         }
     },
     {
       "model": "api.flower",
       "pk": 7,
       "fields": {
-        "name":"anemone",
-        "color": "red",
-        "img": "",
-        "price_stem": 3.5
+        "name":"alstoemeria",
+        "color": "yellow",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008196/alstroemeria_yellow_l85jme.jpg",
+        "price_stem": 2
         }
     },
     {
       "model": "api.flower",
       "pk": 8,
       "fields": {
-        "name":"anemone",
-        "color": "pink",
-        "img": "",
-        "price_stem": 3.5
+        "name":"andromedia",
+        "color": "white",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008197/andromedia_white_odcnba.jpg",
+        "price_stem": 4
         }
     },
     {
       "model": "api.flower",
       "pk": 9,
       "fields": {
-        "name":"anthurium",
-        "color": "red",
-        "img": "",
-        "price_stem": 12
+        "name":"anemone",
+        "color": "pink",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008195/alstroemeria_pink_xla8xh.jpg",
+        "price_stem": 3.5
         }
     },
     {
       "model": "api.flower",
       "pk": 10,
       "fields": {
-        "name":"anthurium",
-        "color": "white",
-        "img": "",
-        "price_stem": 12
+        "name":"anemone",
+        "color": "red",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008197/anemone_red_vvagnh.jpg",
+        "price_stem": 3.5
         }
     },
     {
       "model": "api.flower",
       "pk": 11,
       "fields": {
-        "name":"anthurium",
-        "color": "peach",
-        "img": "",
-        "price_stem": 12
+        "name":"anemone",
+        "color": "violet",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008198/anemone_violet_efxaeh.jpg",
+        "price_stem": 3.5
         }
     },
     {
       "model": "api.flower",
       "pk": 12,
       "fields": {
-        "name":"alstoemeria",
+        "name":"anemone",
         "color": "white",
-        "img": "",
-        "price_stem": 2
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008198/anemone_white_jkhvdz.jpg",
+        "price_stem": 3.5
         }
     },
     {
       "model": "api.flower",
       "pk": 13,
       "fields": {
-        "name":"alstoemeria",
-        "color": "yellow",
-        "img": "",
-        "price_stem": 2
+        "name":"anthurium",
+        "color": "peach",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008197/anthurium_peach_pyd0aa.jpg",
+        "price_stem": 12
         }
     },
     {
       "model": "api.flower",
       "pk": 14,
       "fields": {
-        "name":"alstoemeria",
-        "color": "pink",
-        "img": "",
-        "price_stem": 2
+        "name":"anthurium",
+        "color": "red",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008198/anthurium_red_hsmxvz.jpg",
+        "price_stem": 12
         }
     },
     {
       "model": "api.flower",
       "pk": 15,
       "fields": {
-        "name":"alstoemeria",
-        "color": "red",
-        "img": "",
-        "price_stem": 2
+        "name":"anthurium",
+        "color": "white",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008194/anthurium_white_l0nq47.jpg",
+        "price_stem": 12
         }
     },
     {
@@ -155,7 +155,7 @@
       "fields": {
         "name":"astrantia",
         "color": "white",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008194/astrantia_white_csr2le.jpg",
         "price_stem": 2.75
         }
     },
@@ -165,7 +165,7 @@
       "fields": {
         "name":"blushing bride",
         "color": "white",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008194/blushing_bride_hxqbga.jpg",
         "price_stem": 5
         }
     },
@@ -174,8 +174,8 @@
       "pk": 18,
       "fields": {
         "name":"brodea",
-        "color": "white",
-        "img": "",
+        "color": "violet",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008194/brodea_violet_remane.jpg",
         "price_stem": 2.50
         }
     },
@@ -184,8 +184,8 @@
       "pk": 19,
       "fields": {
         "name":"brodea",
-        "color": "violet",
-        "img": "",
+        "color": "white",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008194/brodea_white_jvrnw1.jpg",
         "price_stem": 2.50
         }
     },
@@ -194,8 +194,8 @@
       "pk": 20,
       "fields": {
         "name":"carnation",
-        "color": "white",
-        "img": "",
+        "color": "black",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008195/carnation_black_wkodwo.jpg",
         "price_stem": 1.25
         }
     },
@@ -205,7 +205,7 @@
       "fields": {
         "name":"carnation",
         "color": "nude",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008195/carnation_nude_dlb5y7.jpg",
         "price_stem": 1.25
         }
     },
@@ -215,7 +215,7 @@
       "fields": {
         "name":"carnation",
         "color": "pink",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008195/carnation_pink_dtrzyw.jpg",
         "price_stem": 1.25
         }
     },
@@ -225,7 +225,7 @@
       "fields": {
         "name":"carnation",
         "color": "red",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008195/carnation_red_slciyt.jpg",
         "price_stem": 1.25
         }
     },
@@ -234,8 +234,8 @@
       "pk": 24,
       "fields": {
         "name":"carnation",
-        "color": "black",
-        "img": "",
+        "color": "violet",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008195/carnation_violet_sl29oc.jpg",
         "price_stem": 1.25
         }
     },
@@ -244,8 +244,8 @@
       "pk": 25,
       "fields": {
         "name":"carnation",
-        "color": "violet",
-        "img": "",
+        "color": "white",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008196/carnation_white_ruishh.jpg",
         "price_stem": 1.25
         }
     },
@@ -254,8 +254,8 @@
       "pk": 26,
       "fields": {
         "name":"chrysanthemum",
-        "color": "white",
-        "img": "",
+        "color": "peach",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008196/chrysanthemums_peach_x8yxwp.jpg",
         "price_stem": 3
         }
     },
@@ -265,7 +265,7 @@
       "fields": {
         "name":"chrysanthemum",
         "color": "pink",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008196/chrysanthemums_pink_qopepl.jpg",
         "price_stem": 3
         }
     },
@@ -274,8 +274,8 @@
       "pk": 28,
       "fields": {
         "name":"chrysanthemum",
-        "color": "peach",
-        "img": "",
+        "color": "white",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008196/chrysanthemums_white_g9n5et.jpg",
         "price_stem": 3
         }
     },
@@ -285,7 +285,7 @@
       "fields": {
         "name":"chrysanthemum",
         "color": "yellow",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008196/chrysanthemums_yellow_dwxzkv.jpg",
         "price_stem": 3
         }
     },
@@ -294,8 +294,8 @@
       "pk": 30,
       "fields": {
         "name":"cosmos",
-        "color": "white",
-        "img": "",
+        "color": "black",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008196/cosmos_black_awncmf.jpg",
         "price_stem": 3
         }
     },
@@ -304,8 +304,8 @@
       "pk": 31,
       "fields": {
         "name":"cosmos",
-        "color": "black",
-        "img": "",
+        "color": "red",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008196/cosmos_red_mn9zks.jpg",
         "price_stem": 3
         }
     },
@@ -314,9 +314,49 @@
       "pk": 32,
       "fields": {
         "name":"cosmos",
-        "color": "red",
-        "img": "",
+        "color": "white",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008196/cosmos_white_bopadt.jpg",
         "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 33,
+      "fields": {
+        "name":"dahlia",
+        "color": "black",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008196/dahlia_black_debfi5.jpg",
+        "price_stem": 6
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 34,
+      "fields": {
+        "name":"dahlia",
+        "color": "nude",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008197/dahlia_nude_bmprvl.jpg",
+        "price_stem": 6
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 35,
+      "fields": {
+        "name":"dahlia",
+        "color": "peach",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008197/dahlia_peach_xffytd.jpg",
+        "price_stem": 6
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 36,
+      "fields": {
+        "name":"dahlia",
+        "color": "pink",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008197/dahlia_pink_ujjf9a.jpg",
+        "price_stem": 6
         }
     },
     {
@@ -331,50 +371,10 @@
     },
     {
       "model": "api.flower",
-      "pk": 34,
-      "fields": {
-        "name":"dahlia",
-        "color": "black",
-        "img": "",
-        "price_stem": 6
-        }
-    },
-    {
-      "model": "api.flower",
       "pk": 35,
       "fields": {
         "name":"dahlia",
         "color": "red",
-        "img": "",
-        "price_stem": 6
-        }
-    },
-    {
-      "model": "api.flower",
-      "pk": 36,
-      "fields": {
-        "name":"dahlia",
-        "color": "nude",
-        "img": "",
-        "price_stem": 6
-        }
-    },
-    {
-      "model": "api.flower",
-      "pk": 37,
-      "fields": {
-        "name":"dahlia",
-        "color": "peach",
-        "img": "",
-        "price_stem": 6
-        }
-    },
-    {
-      "model": "api.flower",
-      "pk": 38,
-      "fields": {
-        "name":"dahlia",
-        "color": "pink",
         "img": "",
         "price_stem": 6
         }
