@@ -56,8 +56,8 @@ class FlowerDetail(generics.RetrieveUpdateDestroyAPIView):
         # Locate flower to delete
         flower = get_object_or_404(Flower, pk=pk)
         # Check the flower's owner against the user making this request
-        if request.user != flower.owner:
-            raise PermissionDenied('Unauthorized, you do not own this flower')
+        # if request.user != flower.owner:
+        #     raise PermissionDenied('Unauthorized, you do not own this flower')
         # Only delete if the user owns the flower
         flower.delete()
         return JsonResponse(status=status.HTTP_204_NO_CONTENT)
