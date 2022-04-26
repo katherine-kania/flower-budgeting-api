@@ -71,9 +71,9 @@ class OrderDetail(generics.RetrieveUpdateDestroyAPIView):
             raise PermissionDenied('Unauthorized, you do not own this order')
 
         # Ensure the owner field is set to the current user's ID
-        request.data['order']['owner'] = request.user.id
+        request.data['owner'] = request.user.id
         # Validate updates with serializer
-        data = OrderSerializer(order, data=request.data['order'], partial=True)
+        data = OrderSerializer(order, data=request.data, partial=True)
         if data.is_valid():
             # Save & send a 204 no content
             data.save()

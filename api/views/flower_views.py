@@ -72,9 +72,9 @@ class FlowerDetail(generics.RetrieveUpdateDestroyAPIView):
         #     raise PermissionDenied('Unauthorized, you do not own this flower')
 
         # Ensure the owner field is set to the current user's ID
-        request.data['flower']['owner'] = request.user.id
+        request.data['owner'] = request.user.id
         # Validate updates with serializer
-        data = FlowerSerializer(flower, data=request.data['flower'], partial=True)
+        data = FlowerSerializer(flower, data=request.data, partial=True)
         if data.is_valid():
             # Save & send a 204 no content
             data.save()
