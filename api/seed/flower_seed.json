@@ -1,0 +1,1193 @@
+[
+    {
+      "model": "api.flower",
+      "pk": 1,
+      "fields": {
+        "name":"allium",
+        "color": "pink",
+        "img": "https://github.com/katherine-kania/project-4-api/blob/main/flower_images/allium_pink.jpg",
+        "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 2,
+      "fields": {
+        "name":"allium",
+        "color": "violet",
+        "img": "https://github.com/katherine-kania/project-4-api/blob/main/flower_images/allium_violet.jpg",
+        "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 3,
+      "fields": {
+        "name":"allium",
+        "color": "white",
+        "img": "https://github.com/katherine-kania/project-4-api/blob/main/flower_images/allium_white.jpg",
+        "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 4,
+      "fields": {
+        "name":"andromedia",
+        "color": "white",
+        "img": "",
+        "price_stem": 4
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 5,
+      "fields": {
+        "name":"anemone",
+        "color": "violet",
+        "img": "",
+        "price_stem": 3.5
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 6,
+      "fields": {
+        "name":"anemone",
+        "color": "white",
+        "img": "",
+        "price_stem": 3.5
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 7,
+      "fields": {
+        "name":"anemone",
+        "color": "red",
+        "img": "",
+        "price_stem": 3.5
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 8,
+      "fields": {
+        "name":"anemone",
+        "color": "pink",
+        "img": "",
+        "price_stem": 3.5
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 9,
+      "fields": {
+        "name":"anthurium",
+        "color": "red",
+        "img": "",
+        "price_stem": 12
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 10,
+      "fields": {
+        "name":"anthurium",
+        "color": "white",
+        "img": "",
+        "price_stem": 12
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 11,
+      "fields": {
+        "name":"anthurium",
+        "color": "peach",
+        "img": "",
+        "price_stem": 12
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 12,
+      "fields": {
+        "name":"alstoemeria",
+        "color": "white",
+        "img": "",
+        "price_stem": 2
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 13,
+      "fields": {
+        "name":"alstoemeria",
+        "color": "yellow",
+        "img": "",
+        "price_stem": 2
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 14,
+      "fields": {
+        "name":"alstoemeria",
+        "color": "pink",
+        "img": "",
+        "price_stem": 2
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 15,
+      "fields": {
+        "name":"alstoemeria",
+        "color": "red",
+        "img": "",
+        "price_stem": 2
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 16,
+      "fields": {
+        "name":"astrantia",
+        "color": "white",
+        "img": "",
+        "price_stem": 2.75
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 17,
+      "fields": {
+        "name":"blushing bride",
+        "color": "white",
+        "img": "",
+        "price_stem": 5
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 18,
+      "fields": {
+        "name":"brodea",
+        "color": "white",
+        "img": "",
+        "price_stem": 2.50
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 19,
+      "fields": {
+        "name":"brodea",
+        "color": "violet",
+        "img": "",
+        "price_stem": 2.50
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 20,
+      "fields": {
+        "name":"carnation",
+        "color": "white",
+        "img": "",
+        "price_stem": 1.25
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 21,
+      "fields": {
+        "name":"carnation",
+        "color": "nude",
+        "img": "",
+        "price_stem": 1.25
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 22,
+      "fields": {
+        "name":"carnation",
+        "color": "pink",
+        "img": "",
+        "price_stem": 1.25
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 23,
+      "fields": {
+        "name":"carnation",
+        "color": "red",
+        "img": "",
+        "price_stem": 1.25
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 24,
+      "fields": {
+        "name":"carnation",
+        "color": "black",
+        "img": "",
+        "price_stem": 1.25
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 25,
+      "fields": {
+        "name":"carnation",
+        "color": "violet",
+        "img": "",
+        "price_stem": 1.25
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 26,
+      "fields": {
+        "name":"chrysanthemum",
+        "color": "white",
+        "img": "",
+        "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 27,
+      "fields": {
+        "name":"chrysanthemum",
+        "color": "pink",
+        "img": "",
+        "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 28,
+      "fields": {
+        "name":"chrysanthemum",
+        "color": "peach",
+        "img": "",
+        "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 29,
+      "fields": {
+        "name":"chrysanthemum",
+        "color": "yellow",
+        "img": "",
+        "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 30,
+      "fields": {
+        "name":"cosmos",
+        "color": "white",
+        "img": "",
+        "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 31,
+      "fields": {
+        "name":"cosmos",
+        "color": "black",
+        "img": "",
+        "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 32,
+      "fields": {
+        "name":"cosmos",
+        "color": "red",
+        "img": "",
+        "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 33,
+      "fields": {
+        "name":"dahlia",
+        "color": "white",
+        "img": "",
+        "price_stem": 6
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 34,
+      "fields": {
+        "name":"dahlia",
+        "color": "black",
+        "img": "",
+        "price_stem": 6
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 35,
+      "fields": {
+        "name":"dahlia",
+        "color": "red",
+        "img": "",
+        "price_stem": 6
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 36,
+      "fields": {
+        "name":"dahlia",
+        "color": "nude",
+        "img": "",
+        "price_stem": 6
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 37,
+      "fields": {
+        "name":"dahlia",
+        "color": "peach",
+        "img": "",
+        "price_stem": 6
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 38,
+      "fields": {
+        "name":"dahlia",
+        "color": "pink",
+        "img": "",
+        "price_stem": 6
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 39,
+      "fields": {
+        "name":"echinacea",
+        "color": "pink",
+        "img": "",
+        "price_stem": 2
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 40,
+      "fields": {
+        "name":"echinacea",
+        "color": "yellow",
+        "img": "",
+        "price_stem": 2
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 41,
+      "fields": {
+        "name":"echinacea",
+        "color": "red",
+        "img": "",
+        "price_stem": 2
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 42,
+      "fields": {
+        "name":"gypsophila (babies breath)",
+        "color": "white",
+        "img": "",
+        "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 43,
+      "fields": {
+        "name":"helleborus",
+        "color": "white",
+        "img": "",
+        "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 44,
+      "fields": {
+        "name":"helleborus",
+        "color": "pink",
+        "img": "",
+        "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 45,
+      "fields": {
+        "name":"helleborus",
+        "color": "black",
+        "img": "",
+        "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 46,
+      "fields": {
+        "name":"hydrangea",
+        "color": "white",
+        "img": "",
+        "price_stem": 9
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 47,
+      "fields": {
+        "name":"hydrangea",
+        "color": "pink",
+        "img": "",
+        "price_stem": 9
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 48,
+      "fields": {
+        "name":"hydrangea",
+        "color": "violet",
+        "img": "",
+        "price_stem": 9
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 49,
+      "fields": {
+        "name":"leucadendron",
+        "color": "red",
+        "img": "",
+        "price_stem": 3.50
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 50,
+      "fields": {
+        "name":"lily, asiatic",
+        "color": "white",
+        "img": "",
+        "price_stem": 4
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 51,
+      "fields": {
+        "name":"lily, asiatic",
+        "color": "pink",
+        "img": "",
+        "price_stem": 4
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 52,
+      "fields": {
+        "name":"lily, asiatic",
+        "color": "red",
+        "img": "",
+        "price_stem": 4
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 53,
+      "fields": {
+        "name":"lily, asiatic",
+        "color": "yellow",
+        "img": "",
+        "price_stem": 4
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 54,
+      "fields": {
+        "name":"lisianthus",
+        "color": "white",
+        "img": "",
+        "price_stem": 2.50
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 55,
+      "fields": {
+        "name":"lisianthus",
+        "color": "pink",
+        "img": "",
+        "price_stem": 2.50
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 56,
+      "fields": {
+        "name":"lisianthus",
+        "color": "violet",
+        "img": "",
+        "price_stem": 2.50
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 57,
+      "fields": {
+        "name":"lisianthus",
+        "color": "red",
+        "img": "",
+        "price_stem": 2.50
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 58,
+      "fields": {
+        "name":"lisianthus",
+        "color": "peach",
+        "img": "",
+        "price_stem": 2.50
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 59,
+      "fields": {
+        "name":"peony",
+        "color": "white",
+        "img": "",
+        "price_stem": 9
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 60,
+      "fields": {
+        "name":"peony",
+        "color": "pink",
+        "img": "",
+        "price_stem": 9
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 61,
+      "fields": {
+        "name":"peony",
+        "color": "red",
+        "img": "",
+        "price_stem": 9
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 62,
+      "fields": {
+        "name":"poppy",
+        "color": "white",
+        "img": "",
+        "price_stem": 8
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 63,
+      "fields": {
+        "name":"poppy",
+        "color": "pink",
+        "img": "",
+        "price_stem": 8
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 64,
+      "fields": {
+        "name":"poppy",
+        "color": "violet",
+        "img": "",
+        "price_stem": 8
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 65,
+      "fields": {
+        "name":"poppy",
+        "color": "peach",
+        "img": "",
+        "price_stem": 8
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 66,
+      "fields": {
+        "name":"protea, nerifolia",
+        "color": "pink",
+        "img": "",
+        "price_stem": 18 
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 67,
+      "fields": {
+        "name":"protea, pincushion",
+        "color": "red",
+        "img": "",
+        "price_stem": 10
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 68,
+      "fields": {
+        "name":"protea, pincushion",
+        "color": "yellow",
+        "img": "",
+        "price_stem": 10
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 69,
+      "fields": {
+        "name":"queen anne's lace",
+        "color": "white",
+        "img": "",
+        "price_stem": 2.50
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 70,
+      "fields": {
+        "name":"ranunculus",
+        "color": "white",
+        "img": "",
+        "price_stem": 6
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 71,
+      "fields": {
+        "name":"ranunculus",
+        "color": "pink",
+        "img": "",
+        "price_stem": 6
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 72,
+      "fields": {
+        "name":"ranunculus",
+        "color": "red",
+        "img": "",
+        "price_stem": 6
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 73,
+      "fields": {
+        "name":"ranunculus",
+        "color": "peach",
+        "img": "",
+        "price_stem": 6
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 74,
+      "fields": {
+        "name":"ranunculus",
+        "color": "violet",
+        "img": "",
+        "price_stem": 6
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 75,
+      "fields": {
+        "name":"ranunculus",
+        "color": "black",
+        "img": "",
+        "price_stem": 6
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 76,
+      "fields": {
+        "name":"roses, garden",
+        "color": "white",
+        "img": "",
+        "price_stem": 10
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 77,
+      "fields": {
+        "name":"roses, garden",
+        "color": "pink",
+        "img": "",
+        "price_stem": 10
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 78,
+      "fields": {
+        "name":"roses, garden",
+        "color": "peach",
+        "img": "",
+        "price_stem": 10
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 79,
+      "fields": {
+        "name":"roses, garden",
+        "color": "red",
+        "img": "",
+        "price_stem": 10
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 80,
+      "fields": {
+        "name":"roses, spray",
+        "color": "white",
+        "img": "",
+        "price_stem": 4
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 81,
+      "fields": {
+        "name":"roses, spray",
+        "color": "pink",
+        "img": "",
+        "price_stem": 4
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 82,
+      "fields": {
+        "name":"roses, spray",
+        "color": "peach",
+        "img": "",
+        "price_stem": 4
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 83,
+      "fields": {
+        "name":"roses, spray",
+        "color": "nude",
+        "img": "",
+        "price_stem": 4
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 84,
+      "fields": {
+        "name":"roses, spray",
+        "color": "red",
+        "img": "",
+        "price_stem": 4
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 85,
+      "fields": {
+        "name":"roses, spray",
+        "color": "violet",
+        "img": "",
+        "price_stem": 4
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 86,
+      "fields": {
+        "name":"scabiosa",
+        "color": "white",
+        "img": "",
+        "price_stem": 2.50
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 87,
+      "fields": {
+        "name":"scabiosa",
+        "color": "pink",
+        "img": "",
+        "price_stem": 2.50
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 88,
+      "fields": {
+        "name":"scabiosa",
+        "color": "violet",
+        "img": "",
+        "price_stem": 2.50
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 89,
+      "fields": {
+        "name":"scabiosa",
+        "color": "black",
+        "img": "",
+        "price_stem": 2.50
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 90,
+      "fields": {
+        "name":"seaholly",
+        "color": "violet",
+        "img": "",
+        "price_stem": 1.50 
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 91,
+      "fields": {
+        "name":"silver brunia",
+        "color": "white",
+        "img": "",
+        "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 92,
+      "fields": {
+        "name":"snapdragon",
+        "color": "white",
+        "img": "",
+        "price_stem": 5
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 93,
+      "fields": {
+        "name":"snapdragon",
+        "color": "pink",
+        "img": "",
+        "price_stem": 5
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 94,
+      "fields": {
+        "name":"snapdragon",
+        "color": "red",
+        "img": "",
+        "price_stem": 5
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 95,
+      "fields": {
+        "name":"snapdragon",
+        "color": "yellow",
+        "img": "",
+        "price_stem": 5
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 96,
+      "fields": {
+        "name":"stock",
+        "color": "white",
+        "img": "",
+        "price_stem": 4
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 97,
+      "fields": {
+        "name":"stock",
+        "color": "pink",
+        "img": "",
+        "price_stem": 4
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 98,
+      "fields": {
+        "name":"stock",
+        "color": "violet",
+        "img": "",
+        "price_stem": 4
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 99,
+      "fields": {
+        "name":"stock",
+        "color": "peach",
+        "img": "",
+        "price_stem": 4
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 100,
+      "fields": {
+        "name":"sweat pea",
+        "color": "white",
+        "img": "",
+        "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 101,
+      "fields": {
+        "name":"sweat pea",
+        "color": "pink",
+        "img": "",
+        "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 102,
+      "fields": {
+        "name":"sweat pea",
+        "color": "red",
+        "img": "",
+        "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 103,
+      "fields": {
+        "name":"sweat pea",
+        "color": "violet",
+        "img": "",
+        "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 104,
+      "fields": {
+        "name":"sweat pea",
+        "color": "nude",
+        "img": "",
+        "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 105,
+      "fields": {
+        "name":"sweat pea",
+        "color": "peach",
+        "img": "",
+        "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 106,
+      "fields": {
+        "name":"sun flower",
+        "color": "yellow",
+        "img": "",
+        "price_stem": 2.50
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 107,
+      "fields": {
+        "name":"tulip",
+        "color": "white",
+        "img": "",
+        "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 108,
+      "fields": {
+        "name":"tulip",
+        "color": "pink",
+        "img": "",
+        "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 109,
+      "fields": {
+        "name":"tulip",
+        "color": "red",
+        "img": "",
+        "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 110,
+      "fields": {
+        "name":"tulip",
+        "color": "violet",
+        "img": "",
+        "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 111,
+      "fields": {
+        "name":"tulip",
+        "color": "peach",
+        "img": "",
+        "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 112,
+      "fields": {
+        "name":"tulip",
+        "color": "yellow",
+        "img": "",
+        "price_stem": 3
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 113,
+      "fields": {
+        "name":"waxflower",
+        "color": "white",
+        "img": "",
+        "price_stem": 2.75
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 114,
+      "fields": {
+        "name":"waxflower",
+        "color": "pink",
+        "img": "",
+        "price_stem": 2.75
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 115,
+      "fields": {
+        "name":"zinnia",
+        "color": "white",
+        "img": "",
+        "price_stem": 1.25
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 116,
+      "fields": {
+        "name":"zinnia",
+        "color": "pink",
+        "img": "",
+        "price_stem": 1.25
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 117,
+      "fields": {
+        "name":"zinnia",
+        "color": "red",
+        "img": "",
+        "price_stem": 1.25
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 118,
+      "fields": {
+        "name":"zinnia",
+        "color": "peach",
+        "img": "",
+        "price_stem": 1.25
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 119,
+      "fields": {
+        "name":"zinnia",
+        "color": "yellow",
+        "img": "",
+        "price_stem": 1.25
+        }
+    }
+
+]
