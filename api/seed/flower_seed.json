@@ -491,7 +491,7 @@
     },
     {
       "model": "api.flower",
-      "pk": 51,
+      "pk": 50,
       "fields": {
         "name":"lily, asiatic",
         "color": "pink",
@@ -501,7 +501,7 @@
     },
     {
       "model": "api.flower",
-      "pk": 52,
+      "pk": 51,
       "fields": {
         "name":"lily, asiatic",
         "color": "red",
@@ -511,7 +511,7 @@
     },
     {
       "model": "api.flower",
-      "pk": 53,
+      "pk": 52,
       "fields": {
         "name":"lily, asiatic",
         "color": "white",
@@ -521,7 +521,7 @@
     },
     {
       "model": "api.flower",
-      "pk": 54,
+      "pk": 53,
       "fields": {
         "name":"lily, asiatic",
         "color": "yellow",
@@ -531,7 +531,7 @@
     },
     {
       "model": "api.flower",
-      "pk": 55,
+      "pk": 54,
       "fields": {
         "name":"lisianthus",
         "color": "peach",
@@ -541,7 +541,7 @@
     },
     {
       "model": "api.flower",
-      "pk": 56,
+      "pk": 55,
       "fields": {
         "name":"lisianthus",
         "color": "pink",
@@ -551,7 +551,7 @@
     },
     {
       "model": "api.flower",
-      "pk": 57,
+      "pk": 56,
       "fields": {
         "name":"lisianthus",
         "color": "red",
@@ -561,7 +561,7 @@
     },
     {
       "model": "api.flower",
-      "pk": 58,
+      "pk": 57,
       "fields": {
         "name":"lisianthus",
         "color": "violet",
@@ -571,7 +571,7 @@
     },
     {
       "model": "api.flower",
-      "pk": 59,
+      "pk": 58,
       "fields": {
         "name":"lisianthus",
         "color": "white",
@@ -581,7 +581,7 @@
     },
     {
       "model": "api.flower",
-      "pk": 60,
+      "pk": 59,
       "fields": {
         "name":"peony",
         "color": "pink",
@@ -591,7 +591,7 @@
     },
     {
       "model": "api.flower",
-      "pk": 61,
+      "pk": 60,
       "fields": {
         "name":"peony",
         "color": "red",
@@ -601,7 +601,7 @@
     },
     {
       "model": "api.flower",
-      "pk": 62,
+      "pk": 61,
       "fields": {
         "name":"peony",
         "color": "white",
@@ -611,7 +611,7 @@
     },
     {
       "model": "api.flower",
-      "pk": 63,
+      "pk": 62,
       "fields": {
         "name":"poppy",
         "color": "orange",
@@ -621,7 +621,7 @@
     },
     {
       "model": "api.flower",
-      "pk": 64,
+      "pk": 63,
       "fields": {
         "name":"poppy",
         "color": "pink",
@@ -631,7 +631,7 @@
     },
     {
       "model": "api.flower",
-      "pk": 65,
+      "pk": 64,
       "fields": {
         "name":"poppy",
         "color": "violet",
@@ -641,7 +641,7 @@
     },
     {
       "model": "api.flower",
-      "pk": 66,
+      "pk": 65,
       "fields": {
         "name":"poppy",
         "color": "white",
@@ -651,7 +651,7 @@
     },
     {
       "model": "api.flower",
-      "pk": 67,
+      "pk": 66,
       "fields": {
         "name":"protea, pincushion",
         "color": "red",
@@ -661,7 +661,7 @@
     },
     {
       "model": "api.flower",
-      "pk": 68,
+      "pk": 67,
       "fields": {
         "name":"protea, pincushion",
         "color": "yellow",
@@ -671,7 +671,7 @@
     },
     {
       "model": "api.flower",
-      "pk": 69,
+      "pk": 68,
       "fields": {
         "name":"protea, nerifolia",
         "color": "pink",
@@ -681,7 +681,7 @@
     },
     {
       "model": "api.flower",
-      "pk": 70,
+      "pk": 69,
       "fields": {
         "name":"queen anne's lace",
         "color": "white",
@@ -691,7 +691,7 @@
     },
     {
       "model": "api.flower",
-      "pk": 71,
+      "pk": 70,
       "fields": {
         "name":"ranunculus",
         "color": "black",
@@ -701,7 +701,7 @@
     },
     {
       "model": "api.flower",
-      "pk": 72,
+      "pk": 71,
       "fields": {
         "name":"ranunculus",
         "color": "peach",
@@ -711,7 +711,7 @@
     },
     {
       "model": "api.flower",
-      "pk": 73,
+      "pk": 72,
       "fields": {
         "name":"ranunculus",
         "color": "pink",
@@ -721,7 +721,7 @@
     },
     {
       "model": "api.flower",
-      "pk": 74,
+      "pk": 73,
       "fields": {
         "name":"ranunculus",
         "color": "red",
@@ -731,7 +731,7 @@
     },
     {
       "model": "api.flower",
-      "pk": 75,
+      "pk": 74,
       "fields": {
         "name":"ranunculus",
         "color": "violet",
@@ -741,7 +741,7 @@
     },
     {
       "model": "api.flower",
-      "pk": 76,
+      "pk": 75,
       "fields": {
         "name":"ranunculus",
         "color": "white",
@@ -751,21 +751,11 @@
     },
     {
       "model": "api.flower",
-      "pk": 78,
+      "pk": 76,
       "fields": {
         "name":"roses, garden",
         "color": "peach",
-        "img": "",
-        "price_stem": 10
-        }
-    },
-    {
-      "model": "api.flower",
-      "pk": 77,
-      "fields": {
-        "name":"roses, garden",
-        "color": "white",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008198/garden_rose_peach_wtxoj7.jpg",
         "price_stem": 10
         }
     },
@@ -775,7 +765,17 @@
       "fields": {
         "name":"roses, garden",
         "color": "pink",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008198/garden_rose_pink_jzu2uu.jpg",
+        "price_stem": 10
+        }
+    },
+    {
+      "model": "api.flower",
+      "pk": 78,
+      "fields": {
+        "name":"roses, garden",
+        "color": "red",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008198/garden_rose_red_llyqyf.jpg",
         "price_stem": 10
         }
     },
@@ -784,8 +784,8 @@
       "pk": 79,
       "fields": {
         "name":"roses, garden",
-        "color": "red",
-        "img": "",
+        "color": "white",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008198/garden_rose_white_aacggp.jpg",
         "price_stem": 10
         }
     },
@@ -794,8 +794,8 @@
       "pk": 80,
       "fields": {
         "name":"roses, spray",
-        "color": "white",
-        "img": "",
+        "color": "nude",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008201/roses_spray_nude_trow6e.jpg",
         "price_stem": 4
         }
     },
@@ -804,8 +804,8 @@
       "pk": 81,
       "fields": {
         "name":"roses, spray",
-        "color": "pink",
-        "img": "",
+        "color": "peach",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008201/roses_spray_peach_jyfmfn.jpg",
         "price_stem": 4
         }
     },
@@ -814,8 +814,8 @@
       "pk": 82,
       "fields": {
         "name":"roses, spray",
-        "color": "peach",
-        "img": "",
+        "color": "pink",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008201/roses_spray_pink_fmslpr.jpg",
         "price_stem": 4
         }
     },
@@ -824,8 +824,8 @@
       "pk": 83,
       "fields": {
         "name":"roses, spray",
-        "color": "nude",
-        "img": "",
+        "color": "red",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008201/roses_spray_red_jonylj.jpg",
         "price_stem": 4
         }
     },
@@ -834,8 +834,8 @@
       "pk": 84,
       "fields": {
         "name":"roses, spray",
-        "color": "red",
-        "img": "",
+        "color": "violet",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008201/roses_spray_violet_ocr5rh.jpg",
         "price_stem": 4
         }
     },
@@ -844,8 +844,8 @@
       "pk": 85,
       "fields": {
         "name":"roses, spray",
-        "color": "violet",
-        "img": "",
+        "color": "white",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008201/roses_spray_white_a3jgso.jpg",
         "price_stem": 4
         }
     },
@@ -854,18 +854,18 @@
       "pk": 86,
       "fields": {
         "name":"scabiosa",
-        "color": "white",
-        "img": "",
+        "color": "black",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008201/scabiosa_black_hndqud.jpg",
         "price_stem": 2.50
         }
-    },
+      },
     {
       "model": "api.flower",
       "pk": 87,
       "fields": {
         "name":"scabiosa",
         "color": "pink",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008201/scabiosa_pink_zwbgvs.jpg",
         "price_stem": 2.50
         }
     },
@@ -875,7 +875,7 @@
       "fields": {
         "name":"scabiosa",
         "color": "violet",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008202/scabiosa_violet_tdfoyb.jpg",
         "price_stem": 2.50
         }
     },
@@ -884,8 +884,8 @@
       "pk": 89,
       "fields": {
         "name":"scabiosa",
-        "color": "black",
-        "img": "",
+        "color": "white",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008201/scabiosa_white_pfw26m.jpg",
         "price_stem": 2.50
         }
     },
@@ -895,7 +895,7 @@
       "fields": {
         "name":"seaholly",
         "color": "violet",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008202/seaholly_violet_mthisr.jpg",
         "price_stem": 1.50 
         }
     },
@@ -905,7 +905,7 @@
       "fields": {
         "name":"silver brunia",
         "color": "white",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008202/silver_brunia_white_cbbxrn.jpg",
         "price_stem": 3
         }
     },
@@ -914,8 +914,8 @@
       "pk": 92,
       "fields": {
         "name":"snapdragon",
-        "color": "white",
-        "img": "",
+        "color": "pink",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008202/snapdragon_pink_vre4zu.jpg",
         "price_stem": 5
         }
     },
@@ -924,8 +924,8 @@
       "pk": 93,
       "fields": {
         "name":"snapdragon",
-        "color": "pink",
-        "img": "",
+        "color": "red",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008202/snapdragon_red_k9ymbg.jpg",
         "price_stem": 5
         }
     },
@@ -934,8 +934,8 @@
       "pk": 94,
       "fields": {
         "name":"snapdragon",
-        "color": "red",
-        "img": "",
+        "color": "white",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008202/snapdragon_white_ieaier.jpg",
         "price_stem": 5
         }
     },
@@ -945,7 +945,7 @@
       "fields": {
         "name":"snapdragon",
         "color": "yellow",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008202/snapdragon_yellow_ms5n9i.jpg",
         "price_stem": 5
         }
     },
@@ -954,8 +954,8 @@
       "pk": 96,
       "fields": {
         "name":"stock",
-        "color": "white",
-        "img": "",
+        "color": "peach",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008202/stock_peach_w9abuz.jpg",
         "price_stem": 4
         }
     },
@@ -965,7 +965,7 @@
       "fields": {
         "name":"stock",
         "color": "pink",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008202/stock_pink_b7gkom.jpg",
         "price_stem": 4
         }
     },
@@ -975,7 +975,7 @@
       "fields": {
         "name":"stock",
         "color": "violet",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008202/stock_violet_z5xu6n.jpg",
         "price_stem": 4
         }
     },
@@ -984,8 +984,8 @@
       "pk": 99,
       "fields": {
         "name":"stock",
-        "color": "peach",
-        "img": "",
+        "color": "white",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008202/stock_white_zlwuyl.jpg",
         "price_stem": 4
         }
     },
@@ -993,10 +993,10 @@
       "model": "api.flower",
       "pk": 100,
       "fields": {
-        "name":"sweat pea",
-        "color": "white",
-        "img": "",
-        "price_stem": 3
+        "name":"sun flower",
+        "color": "yellow",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008202/sunflower_yellow_zx0td8.jpg",
+        "price_stem": 2.50
         }
     },
     {
@@ -1004,8 +1004,8 @@
       "pk": 101,
       "fields": {
         "name":"sweat pea",
-        "color": "pink",
-        "img": "",
+        "color": "peach",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008202/sweat_pea_peach_rqkgfi.jpg",
         "price_stem": 3
         }
     },
@@ -1014,8 +1014,8 @@
       "pk": 102,
       "fields": {
         "name":"sweat pea",
-        "color": "red",
-        "img": "",
+        "color": "nude",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008202/sweet_pea_nude_qbxgrw.jpg",
         "price_stem": 3
         }
     },
@@ -1024,8 +1024,8 @@
       "pk": 103,
       "fields": {
         "name":"sweat pea",
-        "color": "violet",
-        "img": "",
+        "color": "pink",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008202/sweet_pea_pink_kbdx4w.jpg",
         "price_stem": 3
         }
     },
@@ -1034,8 +1034,8 @@
       "pk": 104,
       "fields": {
         "name":"sweat pea",
-        "color": "nude",
-        "img": "",
+        "color": "red",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008203/sweet_pea_red_aavlh2.jpg",
         "price_stem": 3
         }
     },
@@ -1044,8 +1044,8 @@
       "pk": 105,
       "fields": {
         "name":"sweat pea",
-        "color": "peach",
-        "img": "",
+        "color": "violet",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008203/sweet_pea_violet_gpuufm.jpg",
         "price_stem": 3
         }
     },
@@ -1053,10 +1053,10 @@
       "model": "api.flower",
       "pk": 106,
       "fields": {
-        "name":"sun flower",
-        "color": "yellow",
-        "img": "",
-        "price_stem": 2.50
+        "name":"sweat pea",
+        "color": "white",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008203/sweet_pea_white_w8gt5l.jpg",
+        "price_stem": 3
         }
     },
     {
@@ -1064,8 +1064,8 @@
       "pk": 107,
       "fields": {
         "name":"tulip",
-        "color": "white",
-        "img": "",
+        "color": "peach",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008203/tulip_peach_ki1wlc.jpg",
         "price_stem": 3
         }
     },
@@ -1075,7 +1075,7 @@
       "fields": {
         "name":"tulip",
         "color": "pink",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008203/tulip_pink_agi0gs.jpg",
         "price_stem": 3
         }
     },
@@ -1085,7 +1085,7 @@
       "fields": {
         "name":"tulip",
         "color": "red",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008203/tulip_red_ogavmc.jpg",
         "price_stem": 3
         }
     },
@@ -1095,7 +1095,7 @@
       "fields": {
         "name":"tulip",
         "color": "violet",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008203/tulip_violet_v0ykxb.jpg",
         "price_stem": 3
         }
     },
@@ -1104,8 +1104,8 @@
       "pk": 111,
       "fields": {
         "name":"tulip",
-        "color": "peach",
-        "img": "",
+        "color": "white",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008203/tulip_white_lw9rrk.jpg",
         "price_stem": 3
         }
     },
@@ -1115,7 +1115,7 @@
       "fields": {
         "name":"tulip",
         "color": "yellow",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008203/tulip_yellow_ogwvqe.jpg",
         "price_stem": 3
         }
     },
@@ -1124,8 +1124,8 @@
       "pk": 113,
       "fields": {
         "name":"waxflower",
-        "color": "white",
-        "img": "",
+        "color": "pink",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008203/waxflower_pink_um2tdt.jpg",
         "price_stem": 2.75
         }
     },
@@ -1134,8 +1134,8 @@
       "pk": 114,
       "fields": {
         "name":"waxflower",
-        "color": "pink",
-        "img": "",
+        "color": "white",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008203/waxflower_white_jfs7fn.jpg",
         "price_stem": 2.75
         }
     },
@@ -1144,8 +1144,8 @@
       "pk": 115,
       "fields": {
         "name":"zinnia",
-        "color": "white",
-        "img": "",
+        "color": "peach",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008203/zinnia_peach_c7o6lp.jpg",
         "price_stem": 1.25
         }
     },
@@ -1155,7 +1155,7 @@
       "fields": {
         "name":"zinnia",
         "color": "pink",
-        "img": "",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008204/zinnia_pink_bgvuhl.jpg",
         "price_stem": 1.25
         }
     },
@@ -1164,8 +1164,8 @@
       "pk": 117,
       "fields": {
         "name":"zinnia",
-        "color": "red",
-        "img": "",
+        "color": "white",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008204/zinnia_white_c4y7zd.jpg",
         "price_stem": 1.25
         }
     },
@@ -1174,8 +1174,8 @@
       "pk": 118,
       "fields": {
         "name":"zinnia",
-        "color": "peach",
-        "img": "",
+        "color": "yellow",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008204/zinnia_yellow_xpq7x5.jpg",
         "price_stem": 1.25
         }
     },
@@ -1184,10 +1184,9 @@
       "pk": 119,
       "fields": {
         "name":"zinnia",
-        "color": "yellow",
-        "img": "",
+        "color": "red",
+        "img": "https://res.cloudinary.com/dk0n7fyjj/image/upload/v1651008204/zinnias_red_twqzl3.jpg",
         "price_stem": 1.25
         }
     }
-
 ]
