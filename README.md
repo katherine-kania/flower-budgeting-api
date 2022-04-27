@@ -11,3 +11,7 @@ ___
 
 [Link to Client repo](https://github.com/katherine-kania/project-4)
 ___
+
+## Instructions
+python3 manage.py runserver
+python3 manage.py loaddata ./api/seed/flower_seed.json
