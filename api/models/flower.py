@@ -20,6 +20,6 @@ class Flower(models.Model):
         'id': self.id,
         'name': self.name,
         'color': self.color,
-        'img,': self.img,
-        'price_stem,': self.price_stem
+        'img': self.img,
+        'price_stem': self.price_stem
     }
