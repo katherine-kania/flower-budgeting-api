@@ -37,7 +37,7 @@ class Flowers(generics.ListCreateAPIView):
             return JsonResponse(flower.errors, status=status.HTTP_400_BAD_REQUEST)
 
 class FlowerDetail(generics.RetrieveUpdateDestroyAPIView):
-    permission_classes=(IsAuthenticated,)
+    # permission_classes=(IsAuthenticated,)
     def get(self, request, pk):
         """Show request"""
         # Locate the flower to show
