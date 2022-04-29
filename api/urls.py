@@ -1,6 +1,8 @@
 from django.urls import path
 from .views.flower_views import Flowers, FlowerDetail
 from .views.order_views import Orders, OrderDetail
+from .views.request_views import Requests, RequestDetail
+from .views.request_views import Submissions, SubmissionDetail
 from .views.user_views import SignUp, SignIn, SignOut, ChangePassword
 
 urlpatterns = [
@@ -13,6 +15,9 @@ urlpatterns = [
     path('orders/<int:pk>/', OrderDetail.as_view(), name='order_detail'),
     path('orders/create/', Orders.as_view(), name='orders_create'),
     path('orders/<int:pk>/delete/', OrderDetail.as_view(), name='order_delete'),
+    path('orders/requested', Requests.as_view(), name='requests'),
+    path('orders/requested/<int:pk>/', RequestDetail.as_view(), name='request_detail'),
+    path('orders/add/request/', Requests.as_view(), name='requests_create'),
     path('sign-up/', SignUp.as_view(), name='sign-up'),
     path('sign-in/', SignIn.as_view(), name='sign-in'),
     path('sign-out/', SignOut.as_view(), name='sign-out'),

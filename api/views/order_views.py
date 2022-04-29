@@ -3,8 +3,7 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.exceptions import PermissionDenied
 from rest_framework import generics, status
 from django.shortcuts import get_object_or_404
-from django.http import JsonResponse
-from rest_framework.response import Response
+
 
 from ..models.order import Order as OrderModel
 from ..serializers import OrderSerializer
@@ -33,7 +32,7 @@ class Orders(generics.ListCreateAPIView):
         if order.is_valid():
             # Save the created order & send a response
             order.save()
-            return JsonResponse({ 'order': order.data }, status=status.HTTP_201_CREATED)
+            return Response({ 'order': order.data }, status=status.HTTP_201_CREATED)
         # If the data is not valid, return a response with the errors
         return Response(order.errors, status=status.HTTP_400_BAD_REQUEST)
 

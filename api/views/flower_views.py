@@ -3,7 +3,6 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.exceptions import PermissionDenied
 from rest_framework import generics, status
 from django.shortcuts import get_object_or_404
-from django.http import JsonResponse
 
 from ..models.flower import Flower
 from ..serializers import FlowerSerializer

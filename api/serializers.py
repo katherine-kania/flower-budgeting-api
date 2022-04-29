@@ -3,6 +3,7 @@ from rest_framework import serializers
 
 from .models.order import Order
 from .models.flower import Flower
+from .models.request import Request
 from .models.user import User
 
 class FlowerSerializer(serializers.ModelSerializer):
@@ -14,6 +15,11 @@ class OrderSerializer(serializers.ModelSerializer):
     class Meta:
         model = Order
         fields = ('id', 'name', 'size', 'price_range', 'color', 'flower', 'vase', 'owner')
+
+class RequestSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Request
+        fields = ('id', 'first_name', 'last_name', 'phone_number', 'email', 'comment', 'order', 'est_price', 'created_at', 'owner')
 
 class UserSerializer(serializers.ModelSerializer):
     # This model serializer will be used for User creation
