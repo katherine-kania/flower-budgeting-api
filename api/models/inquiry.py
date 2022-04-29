@@ -10,8 +10,8 @@ class Inquiry(models.Model):
 
   first_name = models.CharField(max_length=100)
   last_name = models.CharField(max_length=100)
-  phone_number = PhoneNumberField()
-  email = models.EmailField(max_length=255, unique=True)
+  phone_number = models.CharField(max_length=11)
+  email = models.CharField(max_length=255)
   comment = models.CharField(max_length=250)
   order = models.ForeignKey(
     'Order',
