@@ -4,7 +4,7 @@ from .order import Order
 from phonenumber_field.modelfields import PhoneNumberField
 
 # Create your models here.
-class Request(models.Model):
+class Inquiry(models.Model):
   # define fields
   # https://docs.djangoproject.com/en/3.0/ref/models/fields/
 

@@ -4,7 +4,6 @@ from rest_framework.exceptions import PermissionDenied
 from rest_framework import generics, status
 from django.shortcuts import get_object_or_404
 
-
 from ..models.order import Order as OrderModel
 from ..serializers import OrderSerializer
 

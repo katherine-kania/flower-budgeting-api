@@ -3,7 +3,7 @@ from rest_framework import serializers
 
 from .models.order import Order
 from .models.flower import Flower
-from .models.request import Request
+from .models.inquiry import Inquiry
 from .models.user import User
 
 class FlowerSerializer(serializers.ModelSerializer):
@@ -16,9 +16,9 @@ class OrderSerializer(serializers.ModelSerializer):
         model = Order
         fields = ('id', 'name', 'size', 'price_range', 'color', 'flower', 'vase', 'owner')
 
-class RequestSerializer(serializers.ModelSerializer):
+class InquirySerializer(serializers.ModelSerializer):
     class Meta:
-        model = Request
+        model = Inquiry
         fields = ('id', 'first_name', 'last_name', 'phone_number', 'email', 'comment', 'order', 'est_price', 'created_at', 'owner')
 
 class UserSerializer(serializers.ModelSerializer):

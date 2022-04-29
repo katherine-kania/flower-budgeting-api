@@ -15,3 +15,4 @@ ___
 ## Instructions
 python3 manage.py runserver
 python3 manage.py loaddata ./api/seed/flower_seed.json
+python3 manage.py createsuperuser
