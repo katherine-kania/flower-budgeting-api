@@ -12,15 +12,14 @@ class Order(models.Model):
   price_range = models.CharField(max_length=100)
   color = models.CharField(max_length=100)
   flower = models.ForeignKey(
-      Flower,
-      on_delete=models.CASCADE,
-      related_name='flower_id'
+    'Flower',
+    on_delete=models.CASCADE,
+    related_name='flower_id'
   )
   vase = models.CharField(max_length=100)
   owner = models.ForeignKey(
-      get_user_model(),
-      on_delete=models.CASCADE,
-      related_name='user_id'
+    get_user_model(),
+    on_delete=models.CASCADE
   )
 
   def __str__(self):
@@ -37,5 +36,4 @@ class Order(models.Model):
         'color': self.color,
         'flower': self.flower,
         'vase': self.vase,
-        'user': self.user
     }

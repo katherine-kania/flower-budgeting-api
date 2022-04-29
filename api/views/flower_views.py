@@ -23,7 +23,7 @@ class Flowers(generics.ListCreateAPIView):
         # basic request to front end json
         flowers = Flower.objects.all()
         data = FlowerSerializer(flowers, many=True).data
-        return JsonResponse({'flowers': data})
+        return Response({'flowers': data})
         # return Response(data)
         
     def post(self, request):
@@ -32,9 +32,9 @@ class Flowers(generics.ListCreateAPIView):
         flower = FlowerSerializer(data=request.data)
         if flower.is_valid():
             flower.save()
-            return JsonResponse(flower.data, status=status.HTTP_201_CREATED)
+            return Response(flower.data, status=status.HTTP_201_CREATED)
         else:
-            return JsonResponse(flower.errors, status=status.HTTP_400_BAD_REQUEST)
+            return Response(flower.errors, status=status.HTTP_400_BAD_REQUEST)
 
 class FlowerDetail(generics.RetrieveUpdateDestroyAPIView):
     # permission_classes=(IsAuthenticated,)
@@ -48,7 +48,7 @@ class FlowerDetail(generics.RetrieveUpdateDestroyAPIView):
 
         # Run the data through the serializer so it's formatted
         data = FlowerSerializer(flower).data
-        return JsonResponse({ 'flower': data })
+        return Response({ 'flower': data })
     
 
     def delete(self, request, pk):
@@ -60,7 +60,7 @@ class FlowerDetail(generics.RetrieveUpdateDestroyAPIView):
         #     raise PermissionDenied('Unauthorized, you do not own this flower')
         # Only delete if the user owns the flower
         flower.delete()
-        return JsonResponse(status=status.HTTP_204_NO_CONTENT)
+        return Response(status=status.HTTP_204_NO_CONTENT)
 
     def partial_update(self, request, pk):
         """Update Request"""
@@ -80,4 +80,4 @@ class FlowerDetail(generics.RetrieveUpdateDestroyAPIView):
             data.save()
             return JsonResponse(status=status.HTTP_204_NO_CONTENT)
         # If the data is not valid, return a response with the errors
-        return JsonResponse(data.errors, status=status.HTTP_400_BAD_REQUEST)
+        return Response(data.errors, status=status.HTTP_400_BAD_REQUEST)
