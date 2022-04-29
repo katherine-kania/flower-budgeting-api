@@ -9,7 +9,7 @@ ___
 - SQL (PostgresSQL)
 - Python
 
-[Link to Client repo](https://github.com/katherine-kania/project-4)
+[Link to Client repo](https://github.com/katherine-kania/project-4-client)
 ___
 
 ## Instructions
