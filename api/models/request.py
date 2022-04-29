@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib.auth import get_user_model
-from .request import Request
+from .order import Order
 from phonenumber_field.modelfields import PhoneNumberField
 
 # Create your models here.

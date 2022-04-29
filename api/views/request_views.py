@@ -8,7 +8,7 @@ from ..models.request import Request as RequestModel
 from ..serializers import RequestSerializer
 
 # Create your views here.
-class Request(generics.ListCreateAPIView):
+class Requests(generics.ListCreateAPIView):
     permission_classes=(IsAuthenticated,)
     serializer_class = RequestSerializer
     def get(self, request):
