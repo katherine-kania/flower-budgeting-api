@@ -1,4 +1,4 @@
-# Shears & Roots
+# Flower App
 ## A Custom Floral Ordering App ##
 *SEI Capstone Project / Back-end*
 ___
