@@ -4,7 +4,7 @@
 ___
 Shears & Roots is a floral ordering app that allows customers to fully customize their order by color, price, size, and floral type. The app also contains a member only access to a floral dictionary collection.
 ___
-## Technology Used
+## Tech Used
 - Django
 - SQL (PostgresSQL)
 - Python
