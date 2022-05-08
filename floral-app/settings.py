@@ -30,7 +30,7 @@ if os.getenv('ENV') == 'development':
     # Set debug to true
     DEBUG = True
     # Only allow locally running client at port 3000 for CORS
-    CORS_ORIGIN_WHITELIST = ['http://localhost:3000']
+    CORS_ORIGIN_WHITELIST = ['https://localhost:3000']
 else:
     # If we are on production, use the dj_database_url package
     # to locate the database based on Heroku setup
@@ -175,8 +175,8 @@ USE_TZ = False
 # optional package: http://whitenoise.evans.io/en/stable/django.html
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 # Use the custom user model as the auth user for the admin view
 AUTH_USER_MODEL = 'api.User'
 
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
