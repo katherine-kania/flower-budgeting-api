@@ -4,7 +4,7 @@
 ___
 Shears & Roots is a floral ordering app that allows customers to fully customize their order by color, price, size, and floral type. The app also contains a member only access to a floral dictionary collection.
 ___
-## Tech Used
+## Technology Used
 - Django
 - SQL (PostgresSQL)
 - Python
@@ -18,4 +18,6 @@ ___
 3. In your terminal, ```python3 manage.py makemigrations``` and ```python3 manage.py migrated``` to migrate your models.
 4. ```python3 manage.py loaddata ./api/seed/flower_seed.json``` to seed the flower data.
 5. ```python3 manage.py runserver``` to start the server.
+
+
 
