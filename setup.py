@@ -14,13 +14,13 @@ with open('LICENSE.md') as f:
     LICENSE = f.read()
 
 setup(
-    name='django-auth-template',
+    name='floralapp',
     version='0.1.0',
-    description='GA SEI Boston Django Authentication Template',
+    description='Floral Budgeting Tool application',
     long_description=README,
-    author='<author>',
+    author='katherine-kania',
     author_email='<email>',
-    url='https://github.com/WDI-SEA/django-auth-boilerplate',
+    url='https://github.com/katherine-kania/flower-budgeting-api',
     license=LICENSE,
     packages=find_packages(exclude=('tests', 'docs'))
 )
